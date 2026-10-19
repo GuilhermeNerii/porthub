@@ -1,12 +1,152 @@
 [
   {
-    "game": "Burnout Revenge",
-    "portName": "Xerenge",
-    "platform": "Xbox 360",
-    "originType": "Recompilation",
-    "status": "Playable",
+    "game": "San Francisco Rush: The Rock",
+    "portName": "ProjectR",
+    "platform": "PC / Console",
+    "originType": "Decompilation",
+    "status": "Needs Manual Verification",
     "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-10-19T12:00:00.000Z",
-    "notes": "Candidato detectado automaticamente no PCGamingWiki para revisão manual de URL de repositório antes de publicar."
+    "discoveredAt": "2026-10-19T19:46:18.335Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Silent Hill: The Arcade",
+    "portName": "Silent Hill: The Arcade",
+    "platform": "PC / Console",
+    "originType": "Decompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Dr. Mario",
+    "portName": "Dr Mario Nes Recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Duck Hunt",
+    "portName": "Duck Hunt NES Recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Faxanadu",
+    "portName": "Faxanadu Recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Gumshoe",
+    "portName": "Gumshoe NES Recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Mega Man 3",
+    "portName": "Megaman 3 NES Recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Metroid",
+    "portName": "Metroid Planets",
+    "platform": "PC / Console",
+    "originType": "Recreation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Metroid",
+    "portName": "Metroid NES Recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Super Mario Bros.",
+    "portName": "Super Mario Bros. Remastered",
+    "platform": "PC / Console",
+    "originType": "Recreation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Super Mario Bros.",
+    "portName": "SuperMarioBros-C",
+    "platform": "PC / Console",
+    "originType": "Decompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Super Mario Bros.",
+    "portName": "Super Mario Bros NES Recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "The Legend of Zelda",
+    "portName": "Legend Of Zelda NES Recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Yoshi's Cookie",
+    "portName": "Yoshis Cookie Recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Yoshi",
+    "portName": "Yoshi NES Recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-10-19T19:46:18.336Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
   }
 ]
