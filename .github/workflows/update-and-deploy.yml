@@ -1,0 +1,75 @@
+name: Autonomous Data Pipeline & Deploy Pages
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages-and-data'
+  cancel-in-progress: false
+
+jobs:
+  update-build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Autonomous Telemetry & Discovery Pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+        run: npm run update-data
+
+      - name: Commit updated telemetry if changed
+        run: |
+          git config user.name "porthub-bot[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/generated.json data/history.json data/candidates.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(data): autonomous telemetry sync [skip ci]"
+            git push
+          else
+            echo "Nenhuma alteração nos dados gerados."
+          fi
+
+      - name: Run Typecheck & Unit Tests (Vitest)
+        run: |
+          npm run lint
+          npm test
+
+      - name: Build Static Site (Astro)
+        env:
+          PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io
+          PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+        run: npm run build
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

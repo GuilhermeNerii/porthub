@@ -1,0 +1,31 @@
+# Dependencias
+node_modules/
+
+# Build e caches do Astro
+dist/
+.astro/
+
+# Servidor de desenvolvimento local
+dev-server.log
+dev-server.pid
+npm-debug.log*
+
+# Ambiente / segredos
+.env
+.env.*
+
+# Transricao interna de geracao do projeto (nao publicar)
+_saida-gemini.md
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+_tmp_*
+_v_*.log
+
+# Artefatos temporarios de auditoria (nunca commitar)
+_report.txt
+_git_report*.txt
+_git_install.log
+_fix_report*.txt

@@ -1,0 +1,31 @@
+---
+interface Props {
+  lastUpdatedAt: string;
+}
+
+const { lastUpdatedAt } = Astro.props;
+---
+
+<footer class="border-t border-border-subtle bg-bg-elevated/80 mt-16 py-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+    <div class="space-y-2 max-w-2xl">
+      <div class="flex items-center gap-2 font-mono text-xs text-arcade-emerald">
+        <span class="w-2 h-2 rounded-full bg-arcade-emerald animate-pulse"></span>
+        <span data-i18n-pt="COMPLIANCE LEGAL ATIVO: ZERO ROMS / ZERO BINÁRIOS PROPRIETÁRIOS" data-i18n-en="LEGAL COMPLIANCE ACTIVE: ZERO ROMS / ZERO PROPRIETARY BINARIES">
+          COMPLIANCE LEGAL ATIVO: ZERO ROMS / ZERO BINÁRIOS PROPRIETÁRIOS
+        </span>
+      </div>
+      <p class="text-xs text-text-secondary leading-relaxed" data-i18n-pt="O PORTHUB é um índice informativo e acadêmico de engenharia reversa limpa. Todos os projetos listados exigem que o usuário possua uma cópia legítima adquirida legalmente do respectivo jogo." data-i18n-en="PORTHUB is an informational index of clean-room reverse engineering. Every listed project requires users to supply their own legally acquired copy of the game.">
+        O PORTHUB é um índice informativo e acadêmico de engenharia reversa limpa. Todos os projetos listados exigem que o usuário possua uma cópia legítima adquirida legalmente do respectivo jogo.
+      </p>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-4 text-xs font-mono text-text-secondary">
+      <a href="/aviso-legal" class="hover:text-arcade-cyan underline underline-offset-4">
+        <span data-i18n-pt="Aviso Legal & DMCA" data-i18n-en="Legal & DMCA Policy">Aviso Legal & DMCA</span>
+      </a>
+      <a href="/rss.xml" class="hover:text-arcade-cyan underline underline-offset-4">RSS / Atom</a>
+      <span class="text-text-muted">Snapshot: {new Date(lastUpdatedAt).toISOString().slice(0, 16).replace('T', ' ')} UTC</span>
+    </div>
+  </div>
+</footer>

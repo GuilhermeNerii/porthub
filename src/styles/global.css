@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg-primary: 246 248 250;
+    --color-bg-elevated: 255 255 255;
+    --color-bg-panel: 238 242 246;
+    --color-text-primary: 13 17 23;
+    --color-text-secondary: 55 65 81;
+    --color-text-muted: 100 116 139;
+    --color-border-subtle: 209 213 219;
+    --color-border-accent: 8 145 178;
+  }
+
+  .dark {
+    --color-bg-primary: 9 12 18;
+    --color-bg-elevated: 15 20 30;
+    --color-bg-panel: 20 27 41;
+    --color-text-primary: 236 242 248;
+    --color-text-secondary: 156 168 186;
+    --color-text-muted: 104 118 138;
+    --color-border-subtle: 34 45 64;
+    --color-border-accent: 0 240 255;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    @apply bg-bg-primary text-text-primary font-sans antialiased selection:bg-arcade-cyan/25 selection:text-arcade-cyan min-h-screen flex flex-col;
+  }
+}
+
+/* Grade de terminal retrô sutil */
+.bg-arcade-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+}
+
+/* Scanlines muito sutis que não prejudicam leitura nem contraste WCAG AA */
+.scanlines::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 40;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 2px,
+    rgba(0, 0, 0, 0.04) 3px
+  );
+}
+
+/* Respeito estrito a prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .scanlines::after {
+    display: none !important;
+  }
+}
+
+/* Foco visível de alto contraste para navegação por teclado */
+:focus-visible {
+  outline: 2px solid rgb(var(--color-border-accent));
+  outline-offset: 2px;
+}

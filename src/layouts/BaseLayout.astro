@@ -1,0 +1,100 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CommandPalette from '../components/CommandPalette';
+import { getHydratedProjects, getLastUpdatedAt } from '../lib/projects';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const {
+  title,
+  description = 'Hub autônomo que acompanha portes de PC, decompilações, recompilações estáticas, portes híbridos e emuladores oficiais.',
+  ogImage = '/og/gow3-pc.svg',
+} = Astro.props;
+
+const projects = getHydratedProjects();
+const lastUpdatedAt = getLastUpdatedAt();
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const ogImageUrl = new URL(ogImage, Astro.site);
+---
+
+<!doctype html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} | PORTHUB</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="alternate" type="application/rss+xml" title="PORTHUB RSS Feed" href="/rss.xml" />
+    <meta name="theme-color" content="#090C12" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`${title} | PORTHUB`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${title} | PORTHUB`} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <!-- Fontes Google: Space Grotesk + JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Inicialização sem FOUC de Tema (Claro/Escuro) e Idioma (PT/EN) -->
+    <script is:inline>
+      (function () {
+        const savedTheme = localStorage.getItem('porthub-theme');
+        if (savedTheme === 'light') {
+          document.documentElement.classList.remove('dark');
+        } else {
+          document.documentElement.classList.add('dark');
+        }
+        const savedLang = localStorage.getItem('porthub-lang') || 'pt';
+        document.documentElement.setAttribute('data-lang', savedLang);
+        document.documentElement.lang = savedLang === 'en' ? 'en-US' : 'pt-BR';
+      })();
+    </script>
+  </head>
+  <body class="bg-arcade-grid scanlines">
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:px-4 focus:py-2 focus:bg-arcade-cyan focus:text-black focus:font-mono focus:font-bold focus:rounded-terminal"
+    >
+      Pular para o conteúdo principal / Skip to main content
+    </a>
+
+    <Header lastUpdatedAt={lastUpdatedAt} totalProjects={projects.length} />
+
+    <main id="main-content" class="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <slot />
+    </main>
+
+    <Footer lastUpdatedAt={lastUpdatedAt} />
+
+    <!-- Ilha React Global: Paleta de Comandos (Ctrl+K) -->
+    <CommandPalette client:idle projects={projects} />
+
+    <script is:inline>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>

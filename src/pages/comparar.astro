@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ComparatorView from '../components/ComparatorView';
+import { getHydratedProjects } from '../lib/projects';
+
+const projects = getHydratedProjects();
+---
+
+<BaseLayout title="Comparador Lado a Lado de Portes e Recompilações">
+  <div class="space-y-6">
+    <header class="space-y-2">
+      <h1 class="text-3xl font-bold text-text-primary">Comparador Técnico (Até 3 Projetos)</h1>
+      <p class="text-sm text-text-secondary">
+        Compare métricas de comunidade, abordagem de engenharia reversa, linguagem e requisitos legais lado a lado.
+      </p>
+    </header>
+
+    <ComparatorView client:load projects={projects} />
+  </div>
+</BaseLayout>

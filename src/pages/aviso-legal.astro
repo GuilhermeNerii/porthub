@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { buildSuggestProjectIssueUrl } from '../lib/projects';
+
+const dmcaIssueUrl = buildSuggestProjectIssueUrl();
+---
+
+<BaseLayout title="Aviso Legal, Conformidade e Política de Remoção">
+  <article class="max-w-3xl mx-auto p-6 sm:p-10 rounded-panel bg-bg-elevated border border-border-subtle shadow-panel space-y-6">
+    <h1 class="text-3xl font-bold text-text-primary font-mono">
+      &gt;_ AVISO LEGAL &amp; POLÍTICA DE REMOÇÃO (DMCA)
+    </h1>
+
+    <section class="space-y-2 text-sm text-text-secondary leading-relaxed">
+      <h2 class="text-lg font-bold text-arcade-cyan font-mono">1. Natureza Informativa do PORTHUB</h2>
+      <p>
+        O <strong>PORTHUB</strong> é um diretório estático, acadêmico e informativo dedicado a catalogar o estado da preservação digital, engenharia reversa limpa (<em>clean-room reverse engineering</em>), recompilação estática e portes de código aberto para PC.
+      </p>
+      <p>
+        <strong>Proibição Estrita de Material Protegido:</strong> O PORTHUB <strong>NÃO hospeda, NÃO distribui e NÃO fornece links</strong> para ROMs, ISOs, dumps de jogos (PKGs, pastas CUSA), chaves criptográficas (BIOS/keys), executáveis proprietários modificados ou quaisquer assets protegidos por direitos autorais.
+      </p>
+    </section>
+
+    <section class="space-y-2 text-sm text-text-secondary leading-relaxed">
+      <h2 class="text-lg font-bold text-arcade-cyan font-mono">2. Exigência de Cópia Legítima</h2>
+      <p>
+        Todos os projetos catalogados neste portal exigem que o usuário final possua uma <strong>cópia legítima e adquirida legalmente</strong> do jogo original para extrair localmente seus próprios arquivos de dados.
+      </p>
+    </section>
+
+    <section class="space-y-2 text-sm text-text-secondary leading-relaxed">
+      <h2 class="text-lg font-bold text-arcade-cyan font-mono">3. Política de Remoção e Resiliência a Takedowns</h2>
+      <p>
+        Não possuímos afiliação com a Sony Interactive Entertainment, Nintendo, Microsoft, SEGA ou qualquer outra detentora de propriedade intelectual mencionada de forma nominativa para fins de identificação histórica do hardware original.
+      </p>
+      <p>
+        Caso você seja detentor de direitos autorais e deseje solicitar a remoção imediata de um link listado neste diretório, abra uma solicitação formal em nosso repositório e removeremos a referência imediatamente:
+      </p>
+      <div class="pt-2">
+        <a
+          href={dmcaIssueUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center px-4 py-2 rounded-terminal bg-arcade-cyan text-slate-950 font-mono text-xs font-bold"
+        >
+          Solicitar Remoção / Revisão via GitHub Issue ↗
+        </a>
+      </div>
+    </section>
+  </article>
+</BaseLayout>

@@ -1,0 +1,190 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getHydratedProjects, getHistoryEvents, getCategoryLabel } from '../../lib/projects';
+
+export function getStaticPaths() {
+  const projects = getHydratedProjects();
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project, allProjects: projects },
+  }));
+}
+
+const { project, allProjects } = Astro.props;
+const projectHistory = getHistoryEvents().filter((e) => e.slug === project.slug);
+const relatedProjects = allProjects
+  .filter(
+    (p) =>
+      p.slug !== project.slug &&
+      (p.originalPlatform === project.originalPlatform || p.category === project.category)
+  )
+  .slice(0, 3);
+---
+
+<BaseLayout
+  title={`${project.name} (${project.game})`}
+  description={project.summaryPt}
+  ogImage={`/og/${project.slug}.svg`}
+>
+  <div class="space-y-8">
+    <nav aria-label="Breadcrumb" class="font-mono text-xs text-text-secondary flex items-center gap-2">
+      <a href="/" class="hover:text-arcade-cyan">PORTHUB</a>
+      <span>/</span>
+      <span class="text-arcade-cyan">{project.slug}</span>
+    </nav>
+
+    <header class="p-6 sm:p-8 rounded-panel bg-bg-elevated border border-border-subtle shadow-panel space-y-6">
+      <div class="flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center gap-2.5 font-mono text-xs">
+          <span class="px-2.5 py-1 rounded bg-bg-panel border border-border-subtle text-arcade-cyan font-bold">
+            {project.originalPlatform}
+          </span>
+          <span class="px-2.5 py-1 rounded bg-arcade-emerald/15 border border-arcade-emerald/40 text-arcade-emerald">
+            {getCategoryLabel(project.category, 'pt')}
+          </span>
+          <span class="px-2.5 py-1 rounded bg-bg-panel border border-border-subtle text-text-secondary uppercase">
+            STATUS: {project.status}
+          </span>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <a
+            href={project.repoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-4 py-2 rounded-terminal bg-arcade-cyan text-slate-950 font-mono text-xs font-bold hover:opacity-90 transition-opacity"
+          >
+            Repositório Oficial no GitHub ↗
+          </a>
+          {project.officialSite && (
+            <a
+              href={project.officialSite}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-4 py-2 rounded-terminal bg-bg-panel border border-border-subtle font-mono text-xs text-text-primary hover:border-arcade-cyan"
+            >
+              Site Oficial ↗
+            </a>
+          )}
+        </div>
+      </div>
+
+      <div>
+        <h1 class="text-3xl sm:text-4xl font-bold text-text-primary">{project.name}</h1>
+        <p class="font-mono text-sm text-text-muted mt-1">Jogo original: {project.game}</p>
+      </div>
+
+      <p class="text-base text-text-secondary leading-relaxed" data-i18n-pt={project.summaryPt} data-i18n-en={project.summaryEn}>
+        {project.summaryPt}
+      </p>
+
+      <!-- Aviso Legal em Destaque Obrigatório -->
+      <div class="p-4 rounded-terminal bg-amber-500/10 border border-amber-500/40 text-amber-300 font-mono text-xs space-y-1">
+        <div class="font-bold">⚖ AVISO DE CONFORMIDADE LEGAL E DIREITOS AUTORAIS</div>
+        <div>
+          Requer uma cópia legítima do jogo: {project.requirements} Este hub e o repositório oficial não distribuem ROMs, ISOs, chaves criptográficas ou binários protegidos.
+        </div>
+      </div>
+
+      <!-- Métricas de Telemetria -->
+      <div class="grid grid-cols-2 sm:grid-cols-5 gap-3 pt-2 font-mono">
+        <div class="p-3 rounded-terminal bg-bg-panel border border-border-subtle">
+          <div class="text-[11px] text-text-muted">ESTRELAS</div>
+          <div class="text-lg font-bold text-arcade-cyan">★ {project.generated.stars.toLocaleString()}</div>
+        </div>
+        <div class="p-3 rounded-terminal bg-bg-panel border border-border-subtle">
+          <div class="text-[11px] text-text-muted">FORKS</div>
+          <div class="text-lg font-bold text-text-primary">⑂ {project.generated.forks.toLocaleString()}</div>
+        </div>
+        <div class="p-3 rounded-terminal bg-bg-panel border border-border-subtle">
+          <div class="text-[11px] text-text-muted">ISSUES ABERTAS</div>
+          <div class="text-lg font-bold text-text-primary">{project.generated.openIssues}</div>
+        </div>
+        <div class="p-3 rounded-terminal bg-bg-panel border border-border-subtle">
+          <div class="text-[11px] text-text-muted">LINGUAGEM</div>
+          <div class="text-lg font-bold text-arcade-emerald">{project.generated.language}</div>
+        </div>
+        <div class="p-3 rounded-terminal bg-bg-panel border border-border-subtle">
+          <div class="text-[11px] text-text-muted">ÚLTIMO COMMIT</div>
+          <div class="text-sm font-bold text-text-primary pt-1">
+            {new Date(project.generated.lastCommitAt).toISOString().slice(0, 10)}
+          </div>
+        </div>
+      </div>
+
+      {typeof project.generated.decompProgress === 'number' && (
+        <div class="p-4 rounded-terminal bg-bg-panel border border-border-subtle space-y-2">
+          <div class="flex justify-between font-mono text-xs">
+            <span class="text-text-secondary">PROGRESSO DE DECOMPILAÇÃO MATCHING</span>
+            <span class="text-arcade-emerald font-bold">{project.generated.decompProgress}%</span>
+          </div>
+          <div class="w-full h-3 rounded-full bg-bg-elevated overflow-hidden">
+            <div class="h-full bg-arcade-emerald" style={`width: ${project.generated.decompProgress}%`} />
+          </div>
+        </div>
+      )}
+    </header>
+
+    <!-- Linha do Tempo de Releases e Eventos -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="p-6 rounded-panel bg-bg-elevated border border-border-subtle space-y-4">
+        <h2 class="font-mono text-sm uppercase tracking-wider text-arcade-cyan font-bold">
+          &gt; ÚLTIMA RELEASE OFICIAL &amp; LINHA DO TEMPO
+        </h2>
+        {project.generated.latestRelease ? (
+          <div class="p-4 rounded-terminal bg-bg-panel border border-border-subtle font-mono space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-arcade-cyan font-bold text-base">{project.generated.latestRelease.tag}</span>
+              <span class="text-xs text-text-muted">
+                {new Date(project.generated.latestRelease.publishedAt).toISOString().slice(0, 10)}
+              </span>
+            </div>
+            <a
+              href={project.generated.latestRelease.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-block text-xs text-arcade-emerald hover:underline"
+            >
+              Inspecionar notas de versão no GitHub ↗
+            </a>
+          </div>
+        ) : (
+          <p class="text-xs font-mono text-text-muted">
+            Este projeto utiliza compilação contínua por branch/commit sem tags de release formais no GitHub.
+          </p>
+        )}
+
+        {projectHistory.length > 0 && (
+          <ul class="space-y-2 pt-2 border-t border-border-subtle font-mono text-xs">
+            {projectHistory.map((ev) => (
+              <li class="flex justify-between gap-2 text-text-secondary">
+                <span>{ev.titlePt}</span>
+                <span class="text-text-muted">{ev.timestamp.slice(0, 10)}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+
+      <div class="p-6 rounded-panel bg-bg-elevated border border-border-subtle space-y-4">
+        <h2 class="font-mono text-sm uppercase tracking-wider text-arcade-emerald font-bold">
+          &gt; PROJETOS RELACIONADOS ({project.originalPlatform})
+        </h2>
+        <div class="space-y-3">
+          {relatedProjects.map((rel) => (
+            <a
+              href={`/projeto/${rel.slug}/`}
+              class="block p-3.5 rounded-terminal bg-bg-panel border border-border-subtle hover:border-arcade-cyan transition-colors"
+            >
+              <div class="flex justify-between font-mono text-xs">
+                <span class="font-bold text-text-primary">{rel.name}</span>
+                <span class="text-arcade-cyan">★ {rel.generated.stars}</span>
+              </div>
+              <div class="text-xs text-text-muted mt-1">{rel.game}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

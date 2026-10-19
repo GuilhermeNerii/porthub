@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TelemetryCharts from '../components/TelemetryCharts';
+import { getHydratedProjects } from '../lib/projects';
+
+const projects = getHydratedProjects();
+---
+
+<BaseLayout title="Estatísticas & Radar de Atividade">
+  <div class="space-y-6">
+    <header class="space-y-2">
+      <h1 class="text-3xl font-bold text-text-primary">Telemetria do Ecossistema de Preservação</h1>
+      <p class="text-sm text-text-secondary">
+        Visualizações leves e acessíveis geradas a partir dos snapshots verificados do GitHub e decomp.dev.
+      </p>
+    </header>
+
+    <TelemetryCharts client:load projects={projects} />
+  </div>
+</BaseLayout>

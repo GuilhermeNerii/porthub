@@ -1,0 +1,120 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CatalogExplorer from '../components/CatalogExplorer';
+import { getHydratedProjects, getHistoryEvents, getLastUpdatedAt } from '../lib/projects';
+
+const projects = getHydratedProjects();
+const history = getHistoryEvents().slice(0, 6);
+const lastUpdatedAt = getLastUpdatedAt();
+
+const totalStars = projects.reduce((acc, p) => acc + p.generated.stars, 0);
+const ps4HybridCount = projects.filter((p) => p.category === 'hybrid-port').length;
+---
+
+<BaseLayout title="Monitor Autônomo de Portes e Preservação de Jogos Clássicos para PC">
+  <!-- Hero Section -->
+  <section class="relative mb-12 p-6 sm:p-10 rounded-panel bg-bg-elevated border border-border-subtle shadow-panel overflow-hidden">
+    <div class="max-w-3xl space-y-4">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-terminal bg-arcade-cyan/10 border border-arcade-cyan/40 font-mono text-xs text-arcade-cyan">
+        <span class="w-2 h-2 rounded-full bg-arcade-cyan animate-ping"></span>
+        <span data-i18n-pt="PIPELINE GITHUB ACTIONS // ATUALIZAÇÃO AUTÔNOMA A CADA 6H" data-i18n-en="GITHUB ACTIONS PIPELINE // AUTONOMOUS SYNC EVERY 6H">
+          PIPELINE GITHUB ACTIONS // ATUALIZAÇÃO AUTÔNOMA A CADA 6H
+        </span>
+      </div>
+
+      <h1
+        class="text-3xl sm:text-5xl font-bold tracking-tight text-text-primary leading-tight"
+        data-i18n-pt="Preservação e Portes de Jogos Clássicos para PC, em um Só Terminal."
+        data-i18n-en="PC Ports & Classic Game Preservation, Tracked in One Terminal."
+      >
+        Preservação e Portes de Jogos Clássicos para PC, em um Só Terminal.
+      </h1>
+
+      <p
+        class="text-base sm:text-lg text-text-secondary leading-relaxed"
+        data-i18n-pt="Catálogo verificado de decompilações, recompilações estáticas (N64Recomp, XenonRecomp), portes híbridos de PS4 (x86-64 + Vulkan) e emuladores oficiais. Todos os projetos exigem uma cópia legítima do jogo."
+        data-i18n-en="Verified index of matching decompilations, static recompilations (N64Recomp, XenonRecomp), PS4 hybrid ports (x86-64 + Vulkan), and official emulators. Every project requires a legitimate copy of the game."
+      >
+        Catálogo verificado de decompilações, recompilações estáticas (N64Recomp, XenonRecomp), portes híbridos de PS4 (x86-64 + Vulkan) e emuladores oficiais. Todos os projetos exigem uma cópia legítima do jogo.
+      </p>
+
+      <!-- Métricas de telemetria em destaque -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4">
+        <div class="p-3.5 rounded-terminal bg-bg-panel border border-border-subtle font-mono">
+          <div class="text-xs text-text-muted">PROJETOS VALIDADOS</div>
+          <div class="text-2xl font-bold text-arcade-cyan">{projects.length}</div>
+        </div>
+        <div class="p-3.5 rounded-terminal bg-bg-panel border border-border-subtle font-mono">
+          <div class="text-xs text-text-muted">ESTRELAS TOTAIS</div>
+          <div class="text-2xl font-bold text-arcade-emerald">{totalStars.toLocaleString('pt-BR')}</div>
+        </div>
+        <div class="p-3.5 rounded-terminal bg-bg-panel border border-border-subtle font-mono">
+          <div class="text-xs text-text-muted">PORTES HÍBRIDOS PS4</div>
+          <div class="text-2xl font-bold text-arcade-amber">{ps4HybridCount}</div>
+        </div>
+        <div class="p-3.5 rounded-terminal bg-bg-panel border border-border-subtle font-mono">
+          <div class="text-xs text-text-muted">ÚLTIMO SYNC UTC</div>
+          <div class="text-sm font-bold text-text-primary pt-1" id="relative-sync-time" data-timestamp={lastUpdatedAt}>
+            {new Date(lastUpdatedAt).toISOString().slice(0, 16).replace('T', ' ')}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feed de Novidades Recentes (data/history.json) -->
+  <section class="mb-12 space-y-4" aria-labelledby="feed-heading">
+    <div class="flex items-center justify-between">
+      <h2 id="feed-heading" class="font-mono text-sm uppercase tracking-wider text-arcade-cyan font-bold">
+        &gt; FEED DE RELEASES &amp; DIFFS DE TELEMETRIA
+      </h2>
+      <a href="/rss.xml" class="font-mono text-xs text-text-secondary hover:text-arcade-cyan">
+        Assinar RSS →
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {history.map((item) => (
+        <div class="p-4 rounded-panel bg-bg-elevated border border-border-subtle flex flex-col justify-between gap-2">
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-[11px] font-mono text-text-muted">
+              <span class="text-arcade-emerald uppercase">{item.type}</span>
+              <time datetime={item.timestamp}>{item.timestamp.slice(0, 10)}</time>
+            </div>
+            <h3 class="font-bold text-sm text-text-primary">
+              <a href={`/projeto/${item.slug}/`} class="hover:text-arcade-cyan">
+                {item.titlePt}
+              </a>
+            </h3>
+            <p class="text-xs text-text-secondary">{item.detailPt}</p>
+          </div>
+          {item.url && (
+            <a
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-[11px] font-mono text-arcade-cyan hover:underline"
+            >
+              Ver no GitHub ↗
+            </a>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Catálogo Interativo com Fuse.js e Filtros Combináveis -->
+  <CatalogExplorer client:load projects={projects} />
+</BaseLayout>
+
+<script is:inline>
+  // Calcula "Atualizado há X horas" no cliente usando a data real
+  const el = document.getElementById('relative-sync-time');
+  if (el) {
+    const ts = el.getAttribute('data-timestamp');
+    if (ts) {
+      const diffHours = Math.max(0, Math.floor((Date.now() - new Date(ts).getTime()) / 3600000));
+      el.textContent = diffHours === 0 ? 'Há menos de 1h' : `Há ${diffHours}h`;
+    }
+  }
+</script>

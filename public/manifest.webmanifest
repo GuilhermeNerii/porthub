@@ -1,0 +1,16 @@
+{
+  "name": "PORTHUB — Preservação e Portes de Jogos Clássicos",
+  "short_name": "PORTHUB",
+  "description": "Hub autônomo que acompanha decompilações, recompilações estáticas, portes híbridos e emulação oficial.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090C12",
+  "theme_color": "#00F0FF",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+---
+import { buildSuggestProjectIssueUrl } from '../lib/projects';
+
+interface Props {
+  lastUpdatedAt: string;
+  totalProjects: number;
+}
+
+const { lastUpdatedAt, totalProjects } = Astro.props;
+const suggestUrl = buildSuggestProjectIssueUrl();
+---
+
+<header class="sticky top-0 z-30 border-b border-border-subtle bg-bg-primary/90 backdrop-blur-md">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+    <div class="flex items-center gap-6">
+      <a
+        href="/"
+        class="group flex items-center gap-2.5 font-mono font-bold text-lg tracking-wider text-text-primary"
+        aria-label="PORTHUB Home"
+      >
+        <span class="inline-flex items-center justify-center w-8 h-8 rounded-terminal bg-arcade-cyan/15 border border-arcade-cyan/50 text-arcade-cyan group-hover:shadow-neon transition-shadow">
+          &gt;_
+        </span>
+        <span>PORT<span class="text-arcade-cyan">HUB</span></span>
+        <span class="hidden sm:inline-block text-xs font-mono px-2 py-0.5 rounded bg-bg-panel border border-border-subtle text-text-secondary">
+          {totalProjects} REPOS
+        </span>
+      </a>
+
+      <nav aria-label="Navegação Principal" class="hidden md:flex items-center gap-5 text-sm font-medium">
+        <a href="/#catalogo" class="text-text-secondary hover:text-arcade-cyan transition-colors">
+          <span data-i18n-pt="Catálogo" data-i18n-en="Catalog">Catálogo</span>
+        </a>
+        <a href="/comparar" class="text-text-secondary hover:text-arcade-cyan transition-colors">
+          <span data-i18n-pt="Comparador" data-i18n-en="Comparator">Comparador</span>
+        </a>
+        <a href="/estatisticas" class="text-text-secondary hover:text-arcade-cyan transition-colors">
+          <span data-i18n-pt="Estatísticas & Radar" data-i18n-en="Analytics & Radar">Estatísticas & Radar</span>
+        </a>
+        <a href="/aviso-legal" class="text-text-secondary hover:text-arcade-cyan transition-colors">
+          <span data-i18n-pt="Aviso Legal" data-i18n-en="Legal Notice">Aviso Legal</span>
+        </a>
+      </nav>
+    </div>
+
+    <div class="flex items-center gap-2.5">
+      <button
+        type="button"
+        id="open-cmd-palette"
+        class="inline-flex items-center gap-2 px-3 py-1.5 text-xs font-mono rounded-terminal bg-bg-panel border border-border-subtle text-text-secondary hover:border-arcade-cyan/60 hover:text-text-primary transition-colors"
+        aria-label="Abrir paleta de comandos (Ctrl+K)"
+      >
+        <span data-i18n-pt="Buscar..." data-i18n-en="Search...">Buscar...</span>
+        <kbd class="px-1.5 py-0.5 text-[10px] rounded bg-bg-elevated border border-border-subtle text-arcade-cyan">
+          Ctrl+K
+        </kbd>
+      </button>
+
+      <button
+        type="button"
+        id="lang-toggle"
+        class="px-2.5 py-1.5 text-xs font-mono font-semibold rounded-terminal bg-bg-panel border border-border-subtle text-text-primary hover:border-arcade-cyan/60 transition-colors"
+        aria-label="Alternar idioma PT/EN"
+      >
+        PT / EN
+      </button>
+
+      <button
+        type="button"
+        id="theme-toggle"
+        class="p-1.5 rounded-terminal bg-bg-panel border border-border-subtle text-text-primary hover:border-arcade-cyan/60 transition-colors"
+        aria-label="Alternar tema claro ou escuro"
+        title="Alternar tema claro/escuro"
+      >
+        <span class="font-mono text-xs px-1" id="theme-indicator">◐</span>
+      </button>
+
+      <a
+        href={suggestUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono font-semibold rounded-terminal bg-arcade-cyan/15 border border-arcade-cyan/50 text-arcade-cyan hover:bg-arcade-cyan hover:text-slate-950 transition-colors"
+      >
+        + <span data-i18n-pt="Sugerir Projeto" data-i18n-en="Suggest Project">Sugerir Projeto</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<script is:inline define:vars={{ lastUpdatedAt }}>
+  function applyI18n(lang) {
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.lang = lang === 'en' ? 'en-US' : 'pt-BR';
+    localStorage.setItem('porthub-lang', lang);
+    document.querySelectorAll('[data-i18n-pt]').forEach((el) => {
+      const text = lang === 'en' ? el.getAttribute('data-i18n-en') : el.getAttribute('data-i18n-pt');
+      if (text) el.textContent = text;
+    });
+    window.dispatchEvent(new CustomEvent('porthub:lang-change', { detail: { lang } }));
+  }
+
+  document.getElementById('lang-toggle')?.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-lang') || 'pt';
+    applyI18n(current === 'pt' ? 'en' : 'pt');
+  });
+
+  document.getElementById('theme-toggle')?.addEventListener('click', () => {
+    const isDark = document.documentElement.classList.toggle('dark');
+    localStorage.setItem('porthub-theme', isDark ? 'dark' : 'light');
+  });
+
+  document.getElementById('open-cmd-palette')?.addEventListener('click', () => {
+    window.dispatchEvent(new CustomEvent('porthub:open-cmd'));
+  });
+
+  // Inicializa textos na primeira carga
+  applyI18n(localStorage.getItem('porthub-lang') || 'pt');
+</script>
