@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.59",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.59 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.59 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.59 publicada no repositório oficial.",
+    "detailEn": "Version v0.59 published on the official repository.",
+    "timestamp": "2026-10-20T03:26:48.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.59"
+  },
+  {
+    "id": "evt-rel-gow3-pc-windows-v2.6.0",
+    "slug": "gow3-pc",
+    "projectName": "God of War III Remastered for PC",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v2.6.0 em God of War III Remastered for PC",
+    "titleEn": "New release windows-v2.6.0 for God of War III Remastered for PC",
+    "detailPt": "Versão windows-v2.6.0 publicada no repositório oficial.",
+    "detailEn": "Version windows-v2.6.0 published on the official repository.",
+    "timestamp": "2026-10-19T21:59:06.000Z",
+    "url": "https://github.com/FelipePrado0/SpartanPort/releases/tag/windows-v2.6.0"
+  },
+  {
     "id": "evt-stars-dolphin-emu-15k",
     "slug": "dolphin-emu",
     "projectName": "Dolphin Emulator",
