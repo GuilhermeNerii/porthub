@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.4",
+    "slug": "bloodborne-pc-supermedo",
+    "projectName": "Bloodborne for Windows (Supermedo)",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v1.9.4 em Bloodborne for Windows (Supermedo)",
+    "titleEn": "New release windows-v1.9.4 for Bloodborne for Windows (Supermedo)",
+    "detailPt": "Versão windows-v1.9.4 publicada no repositório oficial.",
+    "detailEn": "Version windows-v1.9.4 published on the official repository.",
+    "timestamp": "2026-10-21T20:57:53.000Z",
+    "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.4"
+  },
+  {
     "id": "evt-rel-sotc-pc-v0.60.4",
     "slug": "sotc-pc",
     "projectName": "ShadowOfTheColossus-PC",
