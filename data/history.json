@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.60.6",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.60.6 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.60.6 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.60.6 publicada no repositório oficial.",
+    "detailEn": "Version v0.60.6 published on the official repository.",
+    "timestamp": "2026-10-22T16:44:31.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.60.6"
+  },
+  {
     "id": "evt-rel-gow3-pc-windows-v2.7.0",
     "slug": "gow3-pc",
     "projectName": "God of War III Remastered for PC",
