@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-stars-gow3-pc-4k",
+    "slug": "gow3-pc",
+    "projectName": "God of War III Remastered for PC",
+    "type": "star-milestone",
+    "titlePt": "God of War III Remastered for PC ultrapassou 4.000 estrelas no GitHub",
+    "titleEn": "God of War III Remastered for PC surpassed 4,000 stars on GitHub",
+    "detailPt": "O projeto atingiu 4.004 estrelas.",
+    "detailEn": "The project reached 4,004 stars.",
+    "timestamp": "2026-10-23T21:18:26.114Z",
+    "url": "https://github.com/FelipePrado0/gow3_pc"
+  },
+  {
     "id": "evt-rel-sotc-pc-v0.60.6",
     "slug": "sotc-pc",
     "projectName": "ShadowOfTheColossus-PC",
