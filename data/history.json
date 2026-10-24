@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-oussama268-v0.60.6-opt11",
+    "slug": "sotc-pc-oussama268",
+    "projectName": "ShadowOfTheColossus-PC (Oussama268)",
+    "type": "new-release",
+    "titlePt": "Nova release v0.60.6-opt11 em ShadowOfTheColossus-PC (Oussama268)",
+    "titleEn": "New release v0.60.6-opt11 for ShadowOfTheColossus-PC (Oussama268)",
+    "detailPt": "Versão v0.60.6-opt11 publicada no repositório oficial.",
+    "detailEn": "Version v0.60.6-opt11 published on the official repository.",
+    "timestamp": "2026-10-24T09:42:06.000Z",
+    "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC/releases/tag/v0.60.6-opt11"
+  },
+  {
     "id": "evt-stars-gow3-pc-4k",
     "slug": "gow3-pc",
     "projectName": "God of War III Remastered for PC",
