@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.60.6-C3",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.60.6-C3 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.60.6-C3 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.60.6-C3 publicada no repositório oficial.",
+    "detailEn": "Version v0.60.6-C3 published on the official repository.",
+    "timestamp": "2026-10-27T05:43:36.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.60.6-C3"
+  },
+  {
     "id": "evt-rel-sotc-pc-v0.60.6-C2",
     "slug": "sotc-pc",
     "projectName": "ShadowOfTheColossus-PC",
