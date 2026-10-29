@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.5",
+    "slug": "bloodborne-pc-supermedo",
+    "projectName": "Bloodborne for Windows (Supermedo)",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v1.9.5 em Bloodborne for Windows (Supermedo)",
+    "titleEn": "New release windows-v1.9.5 for Bloodborne for Windows (Supermedo)",
+    "detailPt": "Versão windows-v1.9.5 publicada no repositório oficial.",
+    "detailEn": "Version windows-v1.9.5 published on the official repository.",
+    "timestamp": "2026-10-28T22:45:47.000Z",
+    "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.5"
+  },
+  {
+    "id": "evt-rel-bloodborne-pc-deadinside28-0.7",
+    "slug": "bloodborne-pc-deadinside28",
+    "projectName": "bloodborne_pc (deadinside28)",
+    "type": "new-release",
+    "titlePt": "Nova release 0.7 em bloodborne_pc (deadinside28)",
+    "titleEn": "New release 0.7 for bloodborne_pc (deadinside28)",
+    "detailPt": "Versão 0.7 publicada no repositório oficial.",
+    "detailEn": "Version 0.7 published on the official repository.",
+    "timestamp": "2026-10-28T23:58:29.000Z",
+    "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.7"
+  },
+  {
     "id": "evt-rel-sotc-pc-v0.60.6-C3",
     "slug": "sotc-pc",
     "projectName": "ShadowOfTheColossus-PC",
