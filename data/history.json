@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-rel-shadps4-v.0.21.0",
+    "slug": "shadps4",
+    "projectName": "shadPS4 (Emulador Oficial & Base Vulkan)",
+    "type": "new-release",
+    "titlePt": "Nova release v.0.21.0 em shadPS4 (Emulador Oficial & Base Vulkan)",
+    "titleEn": "New release v.0.21.0 for shadPS4 (Emulador Oficial & Base Vulkan)",
+    "detailPt": "Versão v.0.21.0 publicada no repositório oficial.",
+    "detailEn": "Version v.0.21.0 published on the official repository.",
+    "timestamp": "2026-10-30T13:38:45.000Z",
+    "url": "https://github.com/shadps4-emu/shadPS4/releases/tag/v.0.21.0"
+  },
+  {
+    "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.7",
+    "slug": "bloodborne-pc-supermedo",
+    "projectName": "Bloodborne for Windows (Supermedo)",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v1.9.7 em Bloodborne for Windows (Supermedo)",
+    "titleEn": "New release windows-v1.9.7 for Bloodborne for Windows (Supermedo)",
+    "detailPt": "Versão windows-v1.9.7 publicada no repositório oficial.",
+    "detailEn": "Version windows-v1.9.7 published on the official repository.",
+    "timestamp": "2026-10-30T20:43:36.000Z",
+    "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.7"
+  },
+  {
     "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.6",
     "slug": "bloodborne-pc-supermedo",
     "projectName": "Bloodborne for Windows (Supermedo)",
