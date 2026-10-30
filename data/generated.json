@@ -1,10 +1,10 @@
 {
-  "lastUpdatedAt": "2026-10-30T05:30:13.345Z",
+  "lastUpdatedAt": "2026-10-30T12:39:35.902Z",
   "projects": {
     "gow3-pc": {
-      "stars": 4371,
+      "stars": 4383,
       "forks": 282,
-      "openIssues": 204,
+      "openIssues": 207,
       "language": "C++",
       "lastCommitAt": "2026-10-30T01:41:07.000Z",
       "latestRelease": {
@@ -12,13 +12,13 @@
         "publishedAt": "2026-10-22T04:28:45.000Z",
         "url": "https://github.com/FelipePrado0/SpartanPort/releases/tag/windows-v2.7.0"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"1620439973b1d9fda8d9cbfbeed930d8e93997f366c457ce11095812b3ca6e64\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"05a56e97e362df095076c1ef8fcd2ae32e2d10b4efe5cfdbda011b0f7e9311e8\""
     },
     "sotc-pc": {
-      "stars": 1598,
-      "forks": 91,
-      "openIssues": 200,
+      "stars": 1604,
+      "forks": 92,
+      "openIssues": 206,
       "language": "C++",
       "lastCommitAt": "2026-10-29T22:56:41.000Z",
       "latestRelease": {
@@ -26,13 +26,13 @@
         "publishedAt": "2026-10-29T16:42:41.000Z",
         "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.70"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"d996c1b95eccaeb51e4725e8f9f8ed48d1da6674ae90ba2e858861915101a5dd\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"28474e31d99093c44dc3bee499cfa5c76fd687f354a7577a5f89bc6a4fa6bd5b\""
     },
     "sotc-pc-oussama268": {
-      "stars": 230,
+      "stars": 232,
       "forks": 5,
-      "openIssues": 40,
+      "openIssues": 43,
       "language": "C++",
       "lastCommitAt": "2026-10-24T09:41:50.000Z",
       "latestRelease": {
@@ -40,13 +40,13 @@
         "publishedAt": "2026-10-24T09:42:06.000Z",
         "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC/releases/tag/v0.60.6-opt11"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"16491db4a8112d0b0ca111a918464ce605be8f5de2a67c3f6d1b17a60009d2ad\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"777bdd86fd1b8c4686f538e1b53d7157fcfc9124ac14696ccda7a67491f41ff4\""
     },
     "bloodborne-pc-deadinside28": {
-      "stars": 3759,
-      "forks": 1054,
-      "openIssues": 77,
+      "stars": 3767,
+      "forks": 1055,
+      "openIssues": 83,
       "language": "C++",
       "lastCommitAt": "2026-10-28T23:56:07.000Z",
       "latestRelease": {
@@ -54,11 +54,11 @@
         "publishedAt": "2026-10-28T23:58:29.000Z",
         "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.7"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"0937598c45fedc52b3bb37191794bd713eb627c5ac974b725d9f79abca941020\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"43fce8fe6975b2f67e2641a0a7ac54baca8f05aee68b3dc177e7b5f3ad479f3b\""
     },
     "bloodborne-pc-supermedo": {
-      "stars": 4903,
+      "stars": 4922,
       "forks": 301,
       "openIssues": 31,
       "language": "C++",
@@ -68,11 +68,11 @@
         "publishedAt": "2026-10-29T13:19:06.000Z",
         "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.6"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"67099af4c57852b9bbefd0359b025a3d1485bdf6417e1740449dd8f222785597\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"7e1b50a555c41da3af518488e0d2d42ef6bf23e601a46593f228f367ea82045d\""
     },
     "ship-of-harkinian": {
-      "stars": 5793,
+      "stars": 5796,
       "forks": 962,
       "openIssues": 427,
       "language": "C",
@@ -83,11 +83,11 @@
         "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.3.1"
       },
       "decompProgress": 100,
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"50bd233e4d1ddcb9178c8686380f6e93818734c7bd07cc03b29505e2aa7eb645\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"372bdacca4a4c701056a330818abc3d1543ef916d3155f1d68308470f7642ff5\""
     },
     "2ship2harkinian": {
-      "stars": 2398,
+      "stars": 2399,
       "forks": 295,
       "openIssues": 186,
       "language": "C",
@@ -97,8 +97,8 @@
         "publishedAt": "2026-08-25T17:54:43.000Z",
         "url": "https://github.com/2ship2harkinian/2ship2harkinian/releases/tag/5.0.1"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"0b4bf7f3a978a794060e953a4e4e78de3d8636e8c7b81e8d4ec4a15949ee3b8e\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"a749c1a12757390d6d51c08894882caf1f1e8313850833c8c7e5a7269535bee2\""
     },
     "zelda64recomp": {
       "stars": 7559,
@@ -111,12 +111,12 @@
         "publishedAt": "2025-08-27T00:58:35.000Z",
         "url": "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/tag/v1.2.2"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"67972fcb0e27ea15746a3df772ea6c5083b4bd648c0e85a9e3c84a868dfd2c47\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"4d114fa68463ec1fe962fd398376047d9debee00977fbbf23eafcaf3c8dcd2e2\""
     },
     "unleashed-recompiled": {
       "stars": 5313,
-      "forks": 432,
+      "forks": 431,
       "openIssues": 242,
       "language": "C++",
       "lastCommitAt": "2026-06-29T11:05:43.000Z",
@@ -125,11 +125,11 @@
         "publishedAt": "2025-04-03T22:04:45.000Z",
         "url": "https://github.com/hedge-dev/UnleashedRecomp/releases/tag/v1.0.3"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"84e98132bd6c98a4042699916ef10d4c2f742b07950b52a01edbc762f09c0aa2\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"a861673ab13d306bf9a799f55dac94c5ff16b849c51b4f6105bf7c7f28a34673\""
     },
     "banjo-recompiled": {
-      "stars": 2108,
+      "stars": 2109,
       "forks": 79,
       "openIssues": 60,
       "language": "C",
@@ -139,8 +139,8 @@
         "publishedAt": "2026-07-31T19:43:17.000Z",
         "url": "https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.2"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"5adaaf2286f488e56f280851399cdc0ad96edb09f457337c3a4ba58f1999ec02\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"dec67fa7cae596ae8c4c6a7b76da52dab51caa50d71168b63475813d82472609\""
     },
     "starship": {
       "stars": 2126,
@@ -153,8 +153,8 @@
         "publishedAt": "2025-05-25T03:43:32.000Z",
         "url": "https://github.com/HarbourMasters/Starship/releases/tag/v2.0.0"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"3606bef7ea211a44dfc90149deeeb3a7042bd1adbf40aaa98f8f8686f4684881\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"9e84ac540607467d6018afc490ef1e211f638e2d0cbf46df2bb3051c7a3f805d\""
     },
     "spaghettikart": {
       "stars": 2472,
@@ -167,8 +167,8 @@
         "publishedAt": "2026-02-25T02:26:04.000Z",
         "url": "https://github.com/HarbourMasters/SpaghettiKart/releases/tag/1.0.0"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"ab0c8d2da79b980a0a61c751c7b326698a74cb6a144e0e2d159dbf5d5b867d78\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"e28e54c5af9f175d71dc1c646c9484f1c253d358d7ae7b5383bef9dbad7bafaa\""
     },
     "opengoal-jak": {
       "stars": 3623,
@@ -182,8 +182,8 @@
         "url": "https://github.com/open-goal/jak-project/releases/tag/v0.3.9"
       },
       "decompProgress": 96.4,
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"b4dbea4d667ff37b1cbe2042cc2711d56b13818af92c3831e37c707b6139d4f8\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"c6e02496bd2ea93f8ab0f93aef5897b66b36be42658e7543e62834a9dcc5d4d2\""
     },
     "perfect-dark-pc": {
       "stars": 2091,
@@ -196,11 +196,11 @@
         "publishedAt": "2024-05-14T09:41:23.000Z",
         "url": "https://github.com/perfect-dark-pc-port/perfect_dark/releases/tag/ci-dev-build"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"796f4c96fec1c69ddc18e26a929efc85f3ad7821824dc8bdcdf145237e0dc5fb\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"51c9601630aebabb97b455892b6935d570a71ba7cea9bfb470d22f0f2001b3c7\""
     },
     "sm64-decomp": {
-      "stars": 8934,
+      "stars": 8936,
       "forks": 1664,
       "openIssues": 29,
       "language": "C",
@@ -211,8 +211,8 @@
         "url": "https://github.com/n64decomp/sm64/releases/tag/irix2"
       },
       "decompProgress": 100,
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"4da274b7481835371e251be756ed5d322c42bec301e6988f78ca0c4cd5435364\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"c06cfcec8f66c88ab88c35181cccc116f2e3bacd9cc2df38df747d3b7d98c3e1\""
     },
     "zeldaret-oot": {
       "stars": 5632,
@@ -222,22 +222,22 @@
       "lastCommitAt": "2026-10-18T12:31:57.000Z",
       "latestRelease": null,
       "decompProgress": 100,
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"1c043fe4a57a8bee614a8607ac431bb1241364fdea073765ed37dc86946afd02\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"db0e32100b918039c7a8d480191487be94604d91f4e5ca03b8125e75c19f906c\""
     },
     "zeldaret-tp": {
-      "stars": 2115,
+      "stars": 2116,
       "forks": 211,
       "openIssues": 42,
       "language": "C++",
       "lastCommitAt": "2026-06-23T19:52:55.000Z",
       "latestRelease": null,
       "decompProgress": 78.5,
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"54aaf128cae54222f02901739bc7081be98319db851dd6b64c64db5ddf0940be\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"554c5f2c691168427433127102504ab753d9dd3493a8f55f0bf9b832bda3fa17\""
     },
     "zelda3-snes": {
-      "stars": 4945,
+      "stars": 4946,
       "forks": 466,
       "openIssues": 89,
       "language": "C",
@@ -248,11 +248,11 @@
         "url": "https://github.com/snesrev/zelda3/releases/tag/v0.3"
       },
       "decompProgress": 100,
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"4132cbf39c988ed0219c23df10e2cd37320494b360f98802b0355f604809ee05\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"4ba01aaa80ad19e467dd03c11217bf6d9b5460d245b0b2ac0ebe2f98a51f6cd6\""
     },
     "sonic-3-air": {
-      "stars": 674,
+      "stars": 675,
       "forks": 171,
       "openIssues": 6,
       "language": "C++",
@@ -262,11 +262,11 @@
         "publishedAt": "2026-03-28T15:37:07.000Z",
         "url": "https://github.com/Eukaryot/sonic3air/releases/tag/v26.03.28.0-stable"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"1d586e33068df127ffb3637845db96801b0e0cb34f245b9de4237db94db05028\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"41efec85e9c10c9e7834c6e56c775cf48fff44f5958e4d1b28f53257d636a5f0\""
     },
     "redriver2": {
-      "stars": 1440,
+      "stars": 1441,
       "forks": 95,
       "openIssues": 39,
       "language": "C",
@@ -277,8 +277,8 @@
         "url": "https://github.com/OpenDriver2/REDRIVER2/releases/tag/7.4-rc2"
       },
       "decompProgress": 92,
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"70f79c89efd3a1fc06416688bcb38c9e076834d0540e6540bc37c698f5020417\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"5ee0db82eeb33b56e9d5971a907bc8942039fa34203170d2dd49bd3ee2c23239\""
     },
     "psydoom": {
       "stars": 549,
@@ -292,8 +292,8 @@
         "url": "https://github.com/BodbDearg/PsyDoom/releases/tag/releases/1.1.1"
       },
       "decompProgress": 100,
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"1f0c95b692d620229cabe1f6c021e51de5a415e85494389018bfeba58e2936f7\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"d96595495e5001bdf175f1749628f4def3d214df0f487c6f60f876d61e4861b9\""
     },
     "lego-island-decomp": {
       "stars": 3497,
@@ -307,12 +307,12 @@
         "url": "https://github.com/isledecomp/isle/releases/tag/continuous"
       },
       "decompProgress": 100,
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"64275fb4a18d9c28b3edad0bde8be8c53677afb95cd7366f8842884ff321cedd\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"ca5b61176aeb65e9d7f6d3b4abd311396fc4e2e78971412f4bead55ca17434fc\""
     },
     "openmw": {
       "stars": 6686,
-      "forks": 1150,
+      "forks": 1151,
       "openIssues": 0,
       "language": "C++",
       "lastCommitAt": "2026-10-29T08:16:46.000Z",
@@ -321,13 +321,13 @@
         "publishedAt": "2026-06-19T19:58:46.000Z",
         "url": "https://github.com/OpenMW/openmw/releases/tag/openmw-0.51.0"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"bc0ec7f46e265d4b5e64c0a69b2422722cf3e31f9a2acf89a5ed9f7488094f6e\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"94e9b3c472cb2be0c3504e4807823376402723bf3edb9d3d0ea3f05c5e334461\""
     },
     "shadps4": {
-      "stars": 33963,
-      "forks": 2874,
-      "openIssues": 311,
+      "stars": 33971,
+      "forks": 2876,
+      "openIssues": 319,
       "language": "C++",
       "lastCommitAt": "2026-10-29T20:57:01.000Z",
       "latestRelease": {
@@ -335,27 +335,27 @@
         "publishedAt": "2026-10-14T14:51:07.000Z",
         "url": "https://github.com/shadps4-emu/shadPS4/releases/tag/v.0.20.0"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"6119f33168709e3de597f71b229ba801016a56f39b6d9ebb27ace39d5941b342\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"734b47e9eea8b99a6e70d6dd424a5de2c639c946d4ba63ee08168943aca8cbd2\""
     },
     "rpcs3": {
-      "stars": 20269,
-      "forks": 2563,
-      "openIssues": 1074,
+      "stars": 20277,
+      "forks": 2564,
+      "openIssues": 1072,
       "language": "C++",
-      "lastCommitAt": "2026-10-29T18:51:40.000Z",
+      "lastCommitAt": "2026-10-30T07:22:17.000Z",
       "latestRelease": {
         "tag": "v0.0.43",
         "publishedAt": "2026-09-30T22:12:32.000Z",
         "url": "https://github.com/RPCS3/rpcs3/releases/tag/v0.0.43"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"90df95a5305e18fa06d72709401660cae66ddeb7f974b6e93b282796c653dfe2\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"27dad0eba391db1a9dea89b62fb274bc4b9d8b1e01f7f27a4ce0809853282335\""
     },
     "dolphin-emu": {
       "stars": 15743,
-      "forks": 3371,
-      "openIssues": 487,
+      "forks": 3372,
+      "openIssues": 489,
       "language": "C++",
       "lastCommitAt": "2026-10-25T12:40:23.000Z",
       "latestRelease": {
@@ -363,8 +363,8 @@
         "publishedAt": "2026-09-15T12:00:00.000Z",
         "url": "https://github.com/dolphin-emu/dolphin/releases"
       },
-      "fetchedAt": "2026-10-30T05:30:13.345Z",
-      "etag": "W/\"666cd85636886336c9504fe899b14d7fcfa86534574f3b1e94705aa4fa8b0a98\""
+      "fetchedAt": "2026-10-30T12:39:35.902Z",
+      "etag": "W/\"84263e4edde2886b4712eda62f043e38b6e91f5b8c1cac90ecf31d8c676794b2\""
     }
   }
 }
