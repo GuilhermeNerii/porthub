@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-stars-shadps4-34k",
+    "slug": "shadps4",
+    "projectName": "shadPS4 (Emulador Oficial & Base Vulkan)",
+    "type": "star-milestone",
+    "titlePt": "shadPS4 (Emulador Oficial & Base Vulkan) ultrapassou 34.000 estrelas no GitHub",
+    "titleEn": "shadPS4 (Emulador Oficial & Base Vulkan) surpassed 34,000 stars on GitHub",
+    "detailPt": "O projeto atingiu 34.002 estrelas.",
+    "detailEn": "The project reached 34,002 stars.",
+    "timestamp": "2026-11-01T05:45:10.502Z",
+    "url": "https://github.com/shadps4-emu/shadPS4"
+  },
+  {
+    "id": "evt-rel-gow3-pc-windows-v3.0.0",
+    "slug": "gow3-pc",
+    "projectName": "God of War III Remastered for PC",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v3.0.0 em God of War III Remastered for PC",
+    "titleEn": "New release windows-v3.0.0 for God of War III Remastered for PC",
+    "detailPt": "Versão windows-v3.0.0 publicada no repositório oficial.",
+    "detailEn": "Version windows-v3.0.0 published on the official repository.",
+    "timestamp": "2026-11-01T02:26:44.000Z",
+    "url": "https://github.com/FelipePrado0/SpartanPort/releases/tag/windows-v3.0.0"
+  },
+  {
     "id": "evt-rel-shadps4-v.0.21.0",
     "slug": "shadps4",
     "projectName": "shadPS4 (Emulador Oficial & Base Vulkan)",
