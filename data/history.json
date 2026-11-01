@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-stars-bloodborne-pc-supermedo-5k",
+    "slug": "bloodborne-pc-supermedo",
+    "projectName": "Bloodborne for Windows (Supermedo)",
+    "type": "star-milestone",
+    "titlePt": "Bloodborne for Windows (Supermedo) ultrapassou 5.000 estrelas no GitHub",
+    "titleEn": "Bloodborne for Windows (Supermedo) surpassed 5,000 stars on GitHub",
+    "detailPt": "O projeto atingiu 5.005 estrelas.",
+    "detailEn": "The project reached 5,005 stars.",
+    "timestamp": "2026-11-01T13:07:52.419Z",
+    "url": "https://github.com/Supermedo/bloodborne_pc"
+  },
+  {
+    "id": "evt-rel-sotc-pc-oussama268-v0.70-opt12",
+    "slug": "sotc-pc-oussama268",
+    "projectName": "ShadowOfTheColossus-PC (Oussama268)",
+    "type": "new-release",
+    "titlePt": "Nova release v0.70-opt12 em ShadowOfTheColossus-PC (Oussama268)",
+    "titleEn": "New release v0.70-opt12 for ShadowOfTheColossus-PC (Oussama268)",
+    "detailPt": "Versão v0.70-opt12 publicada no repositório oficial.",
+    "detailEn": "Version v0.70-opt12 published on the official repository.",
+    "timestamp": "2026-11-01T10:39:21.000Z",
+    "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC/releases/tag/v0.70-opt12"
+  },
+  {
     "id": "evt-stars-shadps4-34k",
     "slug": "shadps4",
     "projectName": "shadPS4 (Emulador Oficial & Base Vulkan)",
