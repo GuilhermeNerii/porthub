@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.71",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.71 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.71 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.71 publicada no repositório oficial.",
+    "detailEn": "Version v0.71 published on the official repository.",
+    "timestamp": "2026-11-02T19:50:45.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.71"
+  },
+  {
     "id": "evt-stars-bloodborne-pc-supermedo-5k",
     "slug": "bloodborne-pc-supermedo",
     "projectName": "Bloodborne for Windows (Supermedo)",
