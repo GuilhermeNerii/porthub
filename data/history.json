@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.8.2",
+    "slug": "bloodborne-pc-supermedo",
+    "projectName": "Bloodborne for Windows (Supermedo)",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v1.9.8.2 em Bloodborne for Windows (Supermedo)",
+    "titleEn": "New release windows-v1.9.8.2 for Bloodborne for Windows (Supermedo)",
+    "detailPt": "Versão windows-v1.9.8.2 publicada no repositório oficial.",
+    "detailEn": "Version windows-v1.9.8.2 published on the official repository.",
+    "timestamp": "2026-11-07T16:30:37.000Z",
+    "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.8.2"
+  },
+  {
+    "id": "evt-rel-gow3-pc-windows-v3.1.0",
+    "slug": "gow3-pc",
+    "projectName": "God of War III Remastered for PC",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v3.1.0 em God of War III Remastered for PC",
+    "titleEn": "New release windows-v3.1.0 for God of War III Remastered for PC",
+    "detailPt": "Versão windows-v3.1.0 publicada no repositório oficial.",
+    "detailEn": "Version windows-v3.1.0 published on the official repository.",
+    "timestamp": "2026-11-07T18:21:45.000Z",
+    "url": "https://github.com/FelipePrado0/SpartanPort/releases/tag/windows-v3.1.0"
+  },
+  {
     "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.8.1",
     "slug": "bloodborne-pc-supermedo",
     "projectName": "Bloodborne for Windows (Supermedo)",
@@ -694,29 +718,5 @@
     "detailEn": "Fixes frame generation memory leak, 4 GB crash, and stretched polygons.",
     "timestamp": "2026-10-16T20:45:00.000Z",
     "url": "https://github.com/Supermedo/bloodborne_pc/releases"
-  },
-  {
-    "id": "evt-gow3-pc-250",
-    "slug": "gow3-pc",
-    "projectName": "God of War III Remastered for PC",
-    "type": "new-release",
-    "titlePt": "God of War III Remastered for PC lançou a versão v2.5.0",
-    "titleEn": "God of War III Remastered for PC released v2.5.0",
-    "detailPt": "Atualização do launcher nativo, melhorias de estabilidade no renderizador Vulkan e suporte a até 240 FPS.",
-    "detailEn": "Native launcher update, Vulkan renderer stability improvements, and up to 240 FPS support.",
-    "timestamp": "2026-10-14T16:20:00.000Z",
-    "url": "https://github.com/FelipePrado0/gow3_pc/releases"
-  },
-  {
-    "id": "evt-sotc-pc-057",
-    "slug": "sotc-pc",
-    "projectName": "ShadowOfTheColossus-PC",
-    "type": "new-release",
-    "titlePt": "ShadowOfTheColossus-PC atingiu a versão v0.57",
-    "titleEn": "ShadowOfTheColossus-PC reached version v0.57",
-    "detailPt": "Avanços na camada híbrida x86-64 e correções de áudio e shaders para o remake de PS4 (CUSA08809).",
-    "detailEn": "Hybrid x86-64 layer improvements and audio/shader fixes for the PS4 remake (CUSA08809).",
-    "timestamp": "2026-10-12T14:00:00.000Z",
-    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases"
   }
 ]
