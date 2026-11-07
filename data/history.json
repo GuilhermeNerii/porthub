@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.8.1",
+    "slug": "bloodborne-pc-supermedo",
+    "projectName": "Bloodborne for Windows (Supermedo)",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v1.9.8.1 em Bloodborne for Windows (Supermedo)",
+    "titleEn": "New release windows-v1.9.8.1 for Bloodborne for Windows (Supermedo)",
+    "detailPt": "Versão windows-v1.9.8.1 publicada no repositório oficial.",
+    "detailEn": "Version windows-v1.9.8.1 published on the official repository.",
+    "timestamp": "2026-11-06T23:04:22.000Z",
+    "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.8.1"
+  },
+  {
     "id": "evt-rel-sotc-pc-oussama268-v0.72.1-opt13",
     "slug": "sotc-pc-oussama268",
     "projectName": "ShadowOfTheColossus-PC (Oussama268)",
@@ -706,17 +718,5 @@
     "detailEn": "Hybrid x86-64 layer improvements and audio/shader fixes for the PS4 remake (CUSA08809).",
     "timestamp": "2026-10-12T14:00:00.000Z",
     "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases"
-  },
-  {
-    "id": "evt-opengoal-0221",
-    "slug": "opengoal-jak",
-    "projectName": "OpenGOAL (Jak & Daxter Series)",
-    "type": "new-release",
-    "titlePt": "OpenGOAL publicou a versão v0.2.21",
-    "titleEn": "OpenGOAL published release v0.2.21",
-    "detailPt": "Melhorias contínuas em Jak II e Jak 3 no compilador nativo GOAL.",
-    "detailEn": "Ongoing improvements for Jak II and Jak 3 in the native GOAL compiler.",
-    "timestamp": "2026-10-02T11:20:00.000Z",
-    "url": "https://github.com/open-goal/jak-project/releases"
   }
 ]
