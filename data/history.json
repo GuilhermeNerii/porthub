@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.8.3",
+    "slug": "bloodborne-pc-supermedo",
+    "projectName": "Bloodborne for Windows (Supermedo)",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v1.9.8.3 em Bloodborne for Windows (Supermedo)",
+    "titleEn": "New release windows-v1.9.8.3 for Bloodborne for Windows (Supermedo)",
+    "detailPt": "Versão windows-v1.9.8.3 publicada no repositório oficial.",
+    "detailEn": "Version windows-v1.9.8.3 published on the official repository.",
+    "timestamp": "2026-11-08T02:25:05.000Z",
+    "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.8.3"
+  },
+  {
     "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.8.2",
     "slug": "bloodborne-pc-supermedo",
     "projectName": "Bloodborne for Windows (Supermedo)",
@@ -706,17 +718,5 @@
     "detailEn": "Fork providing a native Windows port of the Shadow of the Colossus remake (PS4, CUSA08809) added after repository verification and a legitimate dump requirement.",
     "timestamp": "2026-10-19T18:05:55.898Z",
     "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC"
-  },
-  {
-    "id": "evt-supermedo-bb-192",
-    "slug": "bloodborne-pc-supermedo",
-    "projectName": "Bloodborne for Windows (Supermedo)",
-    "type": "new-release",
-    "titlePt": "Nova release v1.9.2 publicada em Bloodborne for Windows",
-    "titleEn": "New release v1.9.2 published for Bloodborne for Windows",
-    "detailPt": "Corrige vazamento de memória com geração de quadros, crash de 4 GB e polígonos esticados.",
-    "detailEn": "Fixes frame generation memory leak, 4 GB crash, and stretched polygons.",
-    "timestamp": "2026-10-16T20:45:00.000Z",
-    "url": "https://github.com/Supermedo/bloodborne_pc/releases"
   }
 ]
