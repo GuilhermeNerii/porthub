@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.8.4",
+    "slug": "bloodborne-pc-supermedo",
+    "projectName": "Bloodborne for Windows (Supermedo)",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v1.9.8.4 em Bloodborne for Windows (Supermedo)",
+    "titleEn": "New release windows-v1.9.8.4 for Bloodborne for Windows (Supermedo)",
+    "detailPt": "Versão windows-v1.9.8.4 publicada no repositório oficial.",
+    "detailEn": "Version windows-v1.9.8.4 published on the official repository.",
+    "timestamp": "2026-11-08T10:47:34.000Z",
+    "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.8.4"
+  },
+  {
     "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.8.3",
     "slug": "bloodborne-pc-supermedo",
     "projectName": "Bloodborne for Windows (Supermedo)",
@@ -706,17 +718,5 @@
     "detailEn": "Version windows-v2.5.0 published on the official repository.",
     "timestamp": "2026-10-18T06:10:15.000Z",
     "url": "https://github.com/FelipePrado0/gow3_pc/releases/tag/windows-v2.5.0"
-  },
-  {
-    "id": "evt-project-added-sotc-pc-oussama268-20261019",
-    "slug": "sotc-pc-oussama268",
-    "projectName": "ShadowOfTheColossus-PC (Oussama268)",
-    "type": "project-added",
-    "titlePt": "ShadowOfTheColossus-PC (Oussama268) entrou no catálogo do PORTHUB",
-    "titleEn": "ShadowOfTheColossus-PC (Oussama268) joined the PORTHUB catalog",
-    "detailPt": "Fork com porte nativo para Windows do remake de Shadow of the Colossus (PS4, CUSA08809) adicionado após verificação do repositório e da exigência de dump legítimo.",
-    "detailEn": "Fork providing a native Windows port of the Shadow of the Colossus remake (PS4, CUSA08809) added after repository verification and a legitimate dump requirement.",
-    "timestamp": "2026-10-19T18:05:55.898Z",
-    "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC"
   }
 ]
