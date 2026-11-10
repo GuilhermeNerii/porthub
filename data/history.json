@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.74.1",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.74.1 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.74.1 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.74.1 publicada no repositório oficial.",
+    "detailEn": "Version v0.74.1 published on the official repository.",
+    "timestamp": "2026-11-10T22:41:19.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.74.1"
+  },
+  {
     "id": "evt-rel-sotc-pc-v0.74",
     "slug": "sotc-pc",
     "projectName": "ShadowOfTheColossus-PC",
@@ -706,17 +718,5 @@
     "detailEn": "Version 9.3.1 published on the official repository.",
     "timestamp": "2026-10-18T21:06:27.000Z",
     "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.3.1"
-  },
-  {
-    "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.2",
-    "slug": "bloodborne-pc-supermedo",
-    "projectName": "Bloodborne for Windows (Supermedo)",
-    "type": "new-release",
-    "titlePt": "Nova release windows-v1.9.2 em Bloodborne for Windows (Supermedo)",
-    "titleEn": "New release windows-v1.9.2 for Bloodborne for Windows (Supermedo)",
-    "detailPt": "Versão windows-v1.9.2 publicada no repositório oficial.",
-    "detailEn": "Version windows-v1.9.2 published on the official repository.",
-    "timestamp": "2026-10-18T20:42:53.000Z",
-    "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.2"
   }
 ]
