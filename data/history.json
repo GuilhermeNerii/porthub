@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.73",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.73 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.73 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.73 publicada no repositório oficial.",
+    "detailEn": "Version v0.73 published on the official repository.",
+    "timestamp": "2026-11-09T23:04:23.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.73"
+  },
+  {
     "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.8.4",
     "slug": "bloodborne-pc-supermedo",
     "projectName": "Bloodborne for Windows (Supermedo)",
@@ -706,17 +718,5 @@
     "detailEn": "Version 0.6 published on the official repository.",
     "timestamp": "2026-10-19T06:34:04.000Z",
     "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6"
-  },
-  {
-    "id": "evt-rel-gow3-pc-windows-v2.5.0",
-    "slug": "gow3-pc",
-    "projectName": "God of War III Remastered for PC",
-    "type": "new-release",
-    "titlePt": "Nova release windows-v2.5.0 em God of War III Remastered for PC",
-    "titleEn": "New release windows-v2.5.0 for God of War III Remastered for PC",
-    "detailPt": "Versão windows-v2.5.0 publicada no repositório oficial.",
-    "detailEn": "Version windows-v2.5.0 published on the official repository.",
-    "timestamp": "2026-10-18T06:10:15.000Z",
-    "url": "https://github.com/FelipePrado0/gow3_pc/releases/tag/windows-v2.5.0"
   }
 ]
