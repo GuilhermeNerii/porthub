@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.74",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.74 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.74 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.74 publicada no repositório oficial.",
+    "detailEn": "Version v0.74 published on the official repository.",
+    "timestamp": "2026-11-10T03:35:36.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.74"
+  },
+  {
     "id": "evt-rel-sotc-pc-v0.73",
     "slug": "sotc-pc",
     "projectName": "ShadowOfTheColossus-PC",
@@ -706,17 +718,5 @@
     "detailEn": "Version windows-v1.9.2 published on the official repository.",
     "timestamp": "2026-10-18T20:42:53.000Z",
     "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.2"
-  },
-  {
-    "id": "evt-rel-bloodborne-pc-deadinside28-0.6",
-    "slug": "bloodborne-pc-deadinside28",
-    "projectName": "bloodborne_pc (deadinside28)",
-    "type": "new-release",
-    "titlePt": "Nova release 0.6 em bloodborne_pc (deadinside28)",
-    "titleEn": "New release 0.6 for bloodborne_pc (deadinside28)",
-    "detailPt": "Versão 0.6 publicada no repositório oficial.",
-    "detailEn": "Version 0.6 published on the official repository.",
-    "timestamp": "2026-10-19T06:34:04.000Z",
-    "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6"
   }
 ]
