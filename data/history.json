@@ -1,5 +1,41 @@
 [
   {
+    "id": "evt-stars-zelda3-snes-5k",
+    "slug": "zelda3-snes",
+    "projectName": "zelda3 (A Link to the Past)",
+    "type": "star-milestone",
+    "titlePt": "zelda3 (A Link to the Past) ultrapassou 5.000 estrelas no GitHub",
+    "titleEn": "zelda3 (A Link to the Past) surpassed 5,000 stars on GitHub",
+    "detailPt": "O projeto atingiu 5.000 estrelas.",
+    "detailEn": "The project reached 5,000 stars.",
+    "timestamp": "2026-11-12T00:27:55.729Z",
+    "url": "https://github.com/snesrev/zelda3"
+  },
+  {
+    "id": "evt-stars-ship-of-harkinian-6k",
+    "slug": "ship-of-harkinian",
+    "projectName": "Ship of Harkinian",
+    "type": "star-milestone",
+    "titlePt": "Ship of Harkinian ultrapassou 6.000 estrelas no GitHub",
+    "titleEn": "Ship of Harkinian surpassed 6,000 stars on GitHub",
+    "detailPt": "O projeto atingiu 6.005 estrelas.",
+    "detailEn": "The project reached 6,005 stars.",
+    "timestamp": "2026-11-12T00:27:55.729Z",
+    "url": "https://github.com/HarbourMasters/Shipwright"
+  },
+  {
+    "id": "evt-stars-bloodborne-pc-deadinside28-4k",
+    "slug": "bloodborne-pc-deadinside28",
+    "projectName": "bloodborne_pc (deadinside28)",
+    "type": "star-milestone",
+    "titlePt": "bloodborne_pc (deadinside28) ultrapassou 4.000 estrelas no GitHub",
+    "titleEn": "bloodborne_pc (deadinside28) surpassed 4,000 stars on GitHub",
+    "detailPt": "O projeto atingiu 4.002 estrelas.",
+    "detailEn": "The project reached 4,002 stars.",
+    "timestamp": "2026-11-12T00:27:55.729Z",
+    "url": "https://github.com/deadinside28/bloodborne_pc"
+  },
+  {
     "id": "evt-rel-sotc-pc-v0.74.1",
     "slug": "sotc-pc",
     "projectName": "ShadowOfTheColossus-PC",
@@ -682,41 +718,5 @@
     "detailEn": "Version v1.0.2 published on the official repository.",
     "timestamp": "2026-07-31T19:43:17.000Z",
     "url": "https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.2"
-  },
-  {
-    "id": "evt-rel-2ship2harkinian-5.0.1",
-    "slug": "2ship2harkinian",
-    "projectName": "2 Ship 2 Harkinian",
-    "type": "new-release",
-    "titlePt": "Nova release 5.0.1 em 2 Ship 2 Harkinian",
-    "titleEn": "New release 5.0.1 for 2 Ship 2 Harkinian",
-    "detailPt": "Versão 5.0.1 publicada no repositório oficial.",
-    "detailEn": "Version 5.0.1 published on the official repository.",
-    "timestamp": "2026-08-25T17:54:43.000Z",
-    "url": "https://github.com/2ship2harkinian/2ship2harkinian/releases/tag/5.0.1"
-  },
-  {
-    "id": "evt-stars-ship-of-harkinian-5k",
-    "slug": "ship-of-harkinian",
-    "projectName": "Ship of Harkinian",
-    "type": "star-milestone",
-    "titlePt": "Ship of Harkinian ultrapassou 5.000 estrelas no GitHub",
-    "titleEn": "Ship of Harkinian surpassed 5,000 stars on GitHub",
-    "detailPt": "O projeto atingiu 5.679 estrelas.",
-    "detailEn": "The project reached 5,679 stars.",
-    "timestamp": "2026-10-19T19:46:05.250Z",
-    "url": "https://github.com/HarbourMasters/Shipwright"
-  },
-  {
-    "id": "evt-rel-ship-of-harkinian-9.3.1",
-    "slug": "ship-of-harkinian",
-    "projectName": "Ship of Harkinian",
-    "type": "new-release",
-    "titlePt": "Nova release 9.3.1 em Ship of Harkinian",
-    "titleEn": "New release 9.3.1 for Ship of Harkinian",
-    "detailPt": "Versão 9.3.1 publicada no repositório oficial.",
-    "detailEn": "Version 9.3.1 published on the official repository.",
-    "timestamp": "2026-10-18T21:06:27.000Z",
-    "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.3.1"
   }
 ]
