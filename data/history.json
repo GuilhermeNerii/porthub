@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-oussama268-v0.74.1-opt14",
+    "slug": "sotc-pc-oussama268",
+    "projectName": "ShadowOfTheColossus-PC (Oussama268)",
+    "type": "new-release",
+    "titlePt": "Nova release v0.74.1-opt14 em ShadowOfTheColossus-PC (Oussama268)",
+    "titleEn": "New release v0.74.1-opt14 for ShadowOfTheColossus-PC (Oussama268)",
+    "detailPt": "Versão v0.74.1-opt14 publicada no repositório oficial.",
+    "detailEn": "Version v0.74.1-opt14 published on the official repository.",
+    "timestamp": "2026-11-12T11:33:27.000Z",
+    "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC/releases/tag/v0.74.1-opt14"
+  },
+  {
     "id": "evt-stars-zelda3-snes-5k",
     "slug": "zelda3-snes",
     "projectName": "zelda3 (A Link to the Past)",
@@ -706,17 +718,5 @@
     "detailEn": "Version v2.0.0 published on the official repository.",
     "timestamp": "2025-05-25T03:43:32.000Z",
     "url": "https://github.com/HarbourMasters/Starship/releases/tag/v2.0.0"
-  },
-  {
-    "id": "evt-rel-banjo-recompiled-v1.0.2",
-    "slug": "banjo-recompiled",
-    "projectName": "Banjo: Recompiled",
-    "type": "new-release",
-    "titlePt": "Nova release v1.0.2 em Banjo: Recompiled",
-    "titleEn": "New release v1.0.2 for Banjo: Recompiled",
-    "detailPt": "Versão v1.0.2 publicada no repositório oficial.",
-    "detailEn": "Version v1.0.2 published on the official repository.",
-    "timestamp": "2026-07-31T19:43:17.000Z",
-    "url": "https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.2"
   }
 ]
