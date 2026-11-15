@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-gow3-pc-windows-v3.2.0",
+    "slug": "gow3-pc",
+    "projectName": "God of War III Remastered for PC",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v3.2.0 em God of War III Remastered for PC",
+    "titleEn": "New release windows-v3.2.0 for God of War III Remastered for PC",
+    "detailPt": "Versão windows-v3.2.0 publicada no repositório oficial.",
+    "detailEn": "Version windows-v3.2.0 published on the official repository.",
+    "timestamp": "2026-11-14T23:39:29.000Z",
+    "url": "https://github.com/FelipePrado0/SpartanPort/releases/tag/windows-v3.2.0"
+  },
+  {
     "id": "evt-rel-bloodborne-pc-supermedo-windows-v1.9.8.6",
     "slug": "bloodborne-pc-supermedo",
     "projectName": "Bloodborne for Windows (Supermedo)",
@@ -706,17 +718,5 @@
     "detailEn": "Version ci-dev-build published on the official repository.",
     "timestamp": "2024-05-14T09:41:23.000Z",
     "url": "https://github.com/perfect-dark-pc-port/perfect_dark/releases/tag/ci-dev-build"
-  },
-  {
-    "id": "evt-rel-opengoal-jak-v0.3.9",
-    "slug": "opengoal-jak",
-    "projectName": "OpenGOAL (Jak & Daxter Series)",
-    "type": "new-release",
-    "titlePt": "Nova release v0.3.9 em OpenGOAL (Jak & Daxter Series)",
-    "titleEn": "New release v0.3.9 for OpenGOAL (Jak & Daxter Series)",
-    "detailPt": "Versão v0.3.9 publicada no repositório oficial.",
-    "detailEn": "Version v0.3.9 published on the official repository.",
-    "timestamp": "2026-10-15T23:15:46.000Z",
-    "url": "https://github.com/open-goal/jak-project/releases/tag/v0.3.9"
   }
 ]
