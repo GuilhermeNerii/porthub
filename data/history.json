@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-oussama268-v0.75-opt15",
+    "slug": "sotc-pc-oussama268",
+    "projectName": "ShadowOfTheColossus-PC (Oussama268)",
+    "type": "new-release",
+    "titlePt": "Nova release v0.75-opt15 em ShadowOfTheColossus-PC (Oussama268)",
+    "titleEn": "New release v0.75-opt15 for ShadowOfTheColossus-PC (Oussama268)",
+    "detailPt": "Versão v0.75-opt15 publicada no repositório oficial.",
+    "detailEn": "Version v0.75-opt15 published on the official repository.",
+    "timestamp": "2026-11-15T11:07:27.000Z",
+    "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC/releases/tag/v0.75-opt15"
+  },
+  {
     "id": "evt-rel-gow3-pc-windows-v3.2.0",
     "slug": "gow3-pc",
     "projectName": "God of War III Remastered for PC",
@@ -706,17 +718,5 @@
     "detailEn": "Version irix2 published on the official repository.",
     "timestamp": "2019-08-25T06:36:31.000Z",
     "url": "https://github.com/n64decomp/sm64/releases/tag/irix2"
-  },
-  {
-    "id": "evt-rel-perfect-dark-pc-ci-dev-build",
-    "slug": "perfect-dark-pc",
-    "projectName": "Perfect Dark PC Port",
-    "type": "new-release",
-    "titlePt": "Nova release ci-dev-build em Perfect Dark PC Port",
-    "titleEn": "New release ci-dev-build for Perfect Dark PC Port",
-    "detailPt": "Versão ci-dev-build publicada no repositório oficial.",
-    "detailEn": "Version ci-dev-build published on the official repository.",
-    "timestamp": "2024-05-14T09:41:23.000Z",
-    "url": "https://github.com/perfect-dark-pc-port/perfect_dark/releases/tag/ci-dev-build"
   }
 ]
