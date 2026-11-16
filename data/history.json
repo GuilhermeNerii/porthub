@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.76",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.76 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.76 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.76 publicada no repositório oficial.",
+    "detailEn": "Version v0.76 published on the official repository.",
+    "timestamp": "2026-11-16T21:32:44.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.76"
+  },
+  {
     "id": "evt-rel-gow3-pc-windows-v3.2.1",
     "slug": "gow3-pc",
     "projectName": "God of War III Remastered for PC",
@@ -706,17 +718,5 @@
     "detailEn": "Version v26.03.28.0-stable published on the official repository.",
     "timestamp": "2026-03-28T15:37:07.000Z",
     "url": "https://github.com/Eukaryot/sonic3air/releases/tag/v26.03.28.0-stable"
-  },
-  {
-    "id": "evt-stars-zeldaret-tp-2k",
-    "slug": "zeldaret-tp",
-    "projectName": "Zelda Twilight Princess Decompilation (zeldaret)",
-    "type": "star-milestone",
-    "titlePt": "Zelda Twilight Princess Decompilation (zeldaret) ultrapassou 2.000 estrelas no GitHub",
-    "titleEn": "Zelda Twilight Princess Decompilation (zeldaret) surpassed 2,000 stars on GitHub",
-    "detailPt": "O projeto atingiu 2.095 estrelas.",
-    "detailEn": "The project reached 2,095 stars.",
-    "timestamp": "2026-10-19T19:46:05.250Z",
-    "url": "https://github.com/zeldaret/tp"
   }
 ]
