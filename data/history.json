@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-gow3-pc-windows-v3.2.1",
+    "slug": "gow3-pc",
+    "projectName": "God of War III Remastered for PC",
+    "type": "new-release",
+    "titlePt": "Nova release windows-v3.2.1 em God of War III Remastered for PC",
+    "titleEn": "New release windows-v3.2.1 for God of War III Remastered for PC",
+    "detailPt": "Versão windows-v3.2.1 publicada no repositório oficial.",
+    "detailEn": "Version windows-v3.2.1 published on the official repository.",
+    "timestamp": "2026-11-16T02:41:14.000Z",
+    "url": "https://github.com/FelipePrado0/SpartanPort/releases/tag/windows-v3.2.1"
+  },
+  {
     "id": "evt-rel-sotc-pc-oussama268-v0.75-opt15",
     "slug": "sotc-pc-oussama268",
     "projectName": "ShadowOfTheColossus-PC (Oussama268)",
@@ -706,17 +718,5 @@
     "detailEn": "The project reached 2,095 stars.",
     "timestamp": "2026-10-19T19:46:05.250Z",
     "url": "https://github.com/zeldaret/tp"
-  },
-  {
-    "id": "evt-rel-sm64-decomp-irix2",
-    "slug": "sm64-decomp",
-    "projectName": "Super Mario 64 Decompilation",
-    "type": "new-release",
-    "titlePt": "Nova release irix2 em Super Mario 64 Decompilation",
-    "titleEn": "New release irix2 for Super Mario 64 Decompilation",
-    "detailPt": "Versão irix2 publicada no repositório oficial.",
-    "detailEn": "Version irix2 published on the official repository.",
-    "timestamp": "2019-08-25T06:36:31.000Z",
-    "url": "https://github.com/n64decomp/sm64/releases/tag/irix2"
   }
 ]
