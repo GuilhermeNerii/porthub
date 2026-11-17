@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.76.2",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.76.2 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.76.2 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.76.2 publicada no repositório oficial.",
+    "detailEn": "Version v0.76.2 published on the official repository.",
+    "timestamp": "2026-11-17T18:38:12.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.76.2"
+  },
+  {
     "id": "evt-rel-sotc-pc-v0.76.1",
     "slug": "sotc-pc",
     "projectName": "ShadowOfTheColossus-PC",
@@ -706,17 +718,5 @@
     "detailEn": "Version releases/1.1.1 published on the official repository.",
     "timestamp": "2023-06-13T06:50:01.000Z",
     "url": "https://github.com/BodbDearg/PsyDoom/releases/tag/releases/1.1.1"
-  },
-  {
-    "id": "evt-rel-redriver2-7.4-rc2",
-    "slug": "redriver2",
-    "projectName": "REDRIVER2",
-    "type": "new-release",
-    "titlePt": "Nova release 7.4-rc2 em REDRIVER2",
-    "titleEn": "New release 7.4-rc2 for REDRIVER2",
-    "detailPt": "Versão 7.4-rc2 publicada no repositório oficial.",
-    "detailEn": "Version 7.4-rc2 published on the official repository.",
-    "timestamp": "2022-02-04T19:01:30.000Z",
-    "url": "https://github.com/OpenDriver2/REDRIVER2/releases/tag/7.4-rc2"
   }
 ]
