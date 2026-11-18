@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-status-sotc-pc-oussama268-2026-11-18",
+    "slug": "sotc-pc-oussama268",
+    "projectName": "ShadowOfTheColossus-PC (Oussama268)",
+    "type": "status-change",
+    "titlePt": "ShadowOfTheColossus-PC (Oussama268) ficou indisponível no GitHub",
+    "titleEn": "ShadowOfTheColossus-PC (Oussama268) became unavailable on GitHub",
+    "detailPt": "Repositório não encontrado ou tornado privado (HTTP 404).",
+    "detailEn": "Repositório não encontrado ou tornado privado (HTTP 404).",
+    "timestamp": "2026-11-18T07:03:43.797Z",
+    "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC"
+  },
+  {
     "id": "evt-rel-sotc-pc-v0.76.2",
     "slug": "sotc-pc",
     "projectName": "ShadowOfTheColossus-PC",
@@ -706,17 +718,5 @@
     "detailEn": "Version continuous published on the official repository.",
     "timestamp": "2026-09-18T23:29:27.000Z",
     "url": "https://github.com/isledecomp/isle/releases/tag/continuous"
-  },
-  {
-    "id": "evt-rel-psydoom-releases/1.1.1",
-    "slug": "psydoom",
-    "projectName": "PsyDoom",
-    "type": "new-release",
-    "titlePt": "Nova release releases/1.1.1 em PsyDoom",
-    "titleEn": "New release releases/1.1.1 for PsyDoom",
-    "detailPt": "Versão releases/1.1.1 publicada no repositório oficial.",
-    "detailEn": "Version releases/1.1.1 published on the official repository.",
-    "timestamp": "2023-06-13T06:50:01.000Z",
-    "url": "https://github.com/BodbDearg/PsyDoom/releases/tag/releases/1.1.1"
   }
 ]
