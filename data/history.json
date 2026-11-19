@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-status-sotc-pc-oussama268-2026-11-19",
+    "slug": "sotc-pc-oussama268",
+    "projectName": "ShadowOfTheColossus-PC (Oussama268)",
+    "type": "status-change",
+    "titlePt": "ShadowOfTheColossus-PC (Oussama268) ficou indisponível no GitHub",
+    "titleEn": "ShadowOfTheColossus-PC (Oussama268) became unavailable on GitHub",
+    "detailPt": "Repositório não encontrado ou tornado privado (HTTP 404).",
+    "detailEn": "Repositório não encontrado ou tornado privado (HTTP 404).",
+    "timestamp": "2026-11-19T07:04:25.168Z",
+    "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC"
+  },
+  {
     "id": "evt-status-sotc-pc-oussama268-2026-11-18",
     "slug": "sotc-pc-oussama268",
     "projectName": "ShadowOfTheColossus-PC (Oussama268)",
@@ -706,17 +718,5 @@
     "detailEn": "Version openmw-0.51.0 published on the official repository.",
     "timestamp": "2026-06-19T19:58:46.000Z",
     "url": "https://github.com/OpenMW/openmw/releases/tag/openmw-0.51.0"
-  },
-  {
-    "id": "evt-rel-lego-island-decomp-continuous",
-    "slug": "lego-island-decomp",
-    "projectName": "LEGO Island Decompilation (isle)",
-    "type": "new-release",
-    "titlePt": "Nova release continuous em LEGO Island Decompilation (isle)",
-    "titleEn": "New release continuous for LEGO Island Decompilation (isle)",
-    "detailPt": "Versão continuous publicada no repositório oficial.",
-    "detailEn": "Version continuous published on the official repository.",
-    "timestamp": "2026-09-18T23:29:27.000Z",
-    "url": "https://github.com/isledecomp/isle/releases/tag/continuous"
   }
 ]
