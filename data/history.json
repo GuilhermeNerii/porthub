@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-status-sotc-pc-oussama268-2026-11-21",
+    "slug": "sotc-pc-oussama268",
+    "projectName": "ShadowOfTheColossus-PC (Oussama268)",
+    "type": "status-change",
+    "titlePt": "ShadowOfTheColossus-PC (Oussama268) ficou indisponível no GitHub",
+    "titleEn": "ShadowOfTheColossus-PC (Oussama268) became unavailable on GitHub",
+    "detailPt": "Repositório não encontrado ou tornado privado (HTTP 404).",
+    "detailEn": "Repositório não encontrado ou tornado privado (HTTP 404).",
+    "timestamp": "2026-11-21T06:51:25.807Z",
+    "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC"
+  },
+  {
     "id": "evt-status-sotc-pc-oussama268-2026-11-20",
     "slug": "sotc-pc-oussama268",
     "projectName": "ShadowOfTheColossus-PC (Oussama268)",
@@ -706,17 +718,5 @@
     "detailEn": "The project reached 33,778 stars.",
     "timestamp": "2026-10-19T19:46:05.250Z",
     "url": "https://github.com/shadps4-emu/shadPS4"
-  },
-  {
-    "id": "evt-rel-shadps4-v.0.20.0",
-    "slug": "shadps4",
-    "projectName": "shadPS4 (Emulador Oficial & Base Vulkan)",
-    "type": "new-release",
-    "titlePt": "Nova release v.0.20.0 em shadPS4 (Emulador Oficial & Base Vulkan)",
-    "titleEn": "New release v.0.20.0 for shadPS4 (Emulador Oficial & Base Vulkan)",
-    "detailPt": "Versão v.0.20.0 publicada no repositório oficial.",
-    "detailEn": "Version v.0.20.0 published on the official repository.",
-    "timestamp": "2026-10-14T14:51:07.000Z",
-    "url": "https://github.com/shadps4-emu/shadPS4/releases/tag/v.0.20.0"
   }
 ]
