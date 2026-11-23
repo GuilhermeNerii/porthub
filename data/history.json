@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.77",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.77 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.77 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.77 publicada no repositório oficial.",
+    "detailEn": "Version v0.77 published on the official repository.",
+    "timestamp": "2026-11-23T20:35:54.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.77"
+  },
+  {
+    "id": "evt-stars-gow3-pc-5k",
+    "slug": "gow3-pc",
+    "projectName": "God of War III Remastered for PC",
+    "type": "star-milestone",
+    "titlePt": "God of War III Remastered for PC ultrapassou 5.000 estrelas no GitHub",
+    "titleEn": "God of War III Remastered for PC surpassed 5,000 stars on GitHub",
+    "detailPt": "O projeto atingiu 5.007 estrelas.",
+    "detailEn": "The project reached 5,007 stars.",
+    "timestamp": "2026-11-23T23:44:54.776Z",
+    "url": "https://github.com/FelipePrado0/gow3_pc"
+  },
+  {
     "id": "evt-status-sotc-pc-oussama268-2026-11-23",
     "slug": "sotc-pc-oussama268",
     "projectName": "ShadowOfTheColossus-PC (Oussama268)",
@@ -694,29 +718,5 @@
     "detailEn": "Version windows-v2.6.0 published on the official repository.",
     "timestamp": "2026-10-19T21:59:06.000Z",
     "url": "https://github.com/FelipePrado0/SpartanPort/releases/tag/windows-v2.6.0"
-  },
-  {
-    "id": "evt-stars-dolphin-emu-15k",
-    "slug": "dolphin-emu",
-    "projectName": "Dolphin Emulator",
-    "type": "star-milestone",
-    "titlePt": "Dolphin Emulator ultrapassou 15.000 estrelas no GitHub",
-    "titleEn": "Dolphin Emulator surpassed 15,000 stars on GitHub",
-    "detailPt": "O projeto atingiu 15.691 estrelas.",
-    "detailEn": "The project reached 15,691 stars.",
-    "timestamp": "2026-10-19T19:46:05.250Z",
-    "url": "https://github.com/dolphin-emu/dolphin"
-  },
-  {
-    "id": "evt-stars-rpcs3-20k",
-    "slug": "rpcs3",
-    "projectName": "RPCS3",
-    "type": "star-milestone",
-    "titlePt": "RPCS3 ultrapassou 20.000 estrelas no GitHub",
-    "titleEn": "RPCS3 surpassed 20,000 stars on GitHub",
-    "detailPt": "O projeto atingiu 20.132 estrelas.",
-    "detailEn": "The project reached 20,132 stars.",
-    "timestamp": "2026-10-19T19:46:05.250Z",
-    "url": "https://github.com/RPCS3/rpcs3"
   }
 ]
