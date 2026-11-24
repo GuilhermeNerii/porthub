@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-status-sotc-pc-oussama268-2026-11-24",
+    "slug": "sotc-pc-oussama268",
+    "projectName": "ShadowOfTheColossus-PC (Oussama268)",
+    "type": "status-change",
+    "titlePt": "ShadowOfTheColossus-PC (Oussama268) ficou indisponível no GitHub",
+    "titleEn": "ShadowOfTheColossus-PC (Oussama268) became unavailable on GitHub",
+    "detailPt": "Repositório não encontrado ou tornado privado (HTTP 404).",
+    "detailEn": "Repositório não encontrado ou tornado privado (HTTP 404).",
+    "timestamp": "2026-11-24T09:38:38.416Z",
+    "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC"
+  },
+  {
     "id": "evt-rel-sotc-pc-v0.77",
     "slug": "sotc-pc",
     "projectName": "ShadowOfTheColossus-PC",
@@ -706,17 +718,5 @@
     "detailEn": "Version v0.59 published on the official repository.",
     "timestamp": "2026-10-20T03:26:48.000Z",
     "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.59"
-  },
-  {
-    "id": "evt-rel-gow3-pc-windows-v2.6.0",
-    "slug": "gow3-pc",
-    "projectName": "God of War III Remastered for PC",
-    "type": "new-release",
-    "titlePt": "Nova release windows-v2.6.0 em God of War III Remastered for PC",
-    "titleEn": "New release windows-v2.6.0 for God of War III Remastered for PC",
-    "detailPt": "Versão windows-v2.6.0 publicada no repositório oficial.",
-    "detailEn": "Version windows-v2.6.0 published on the official repository.",
-    "timestamp": "2026-10-19T21:59:06.000Z",
-    "url": "https://github.com/FelipePrado0/SpartanPort/releases/tag/windows-v2.6.0"
   }
 ]
