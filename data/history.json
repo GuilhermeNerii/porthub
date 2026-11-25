@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-status-sotc-pc-oussama268-2026-11-25",
+    "slug": "sotc-pc-oussama268",
+    "projectName": "ShadowOfTheColossus-PC (Oussama268)",
+    "type": "status-change",
+    "titlePt": "ShadowOfTheColossus-PC (Oussama268) ficou indisponível no GitHub",
+    "titleEn": "ShadowOfTheColossus-PC (Oussama268) became unavailable on GitHub",
+    "detailPt": "Repositório não encontrado ou tornado privado (HTTP 404).",
+    "detailEn": "Repositório não encontrado ou tornado privado (HTTP 404).",
+    "timestamp": "2026-11-25T08:10:29.020Z",
+    "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC"
+  },
+  {
     "id": "evt-status-sotc-pc-oussama268-2026-11-24",
     "slug": "sotc-pc-oussama268",
     "projectName": "ShadowOfTheColossus-PC (Oussama268)",
@@ -706,17 +718,5 @@
     "detailEn": "Version v0.57-opt8 published on the official repository.",
     "timestamp": "2026-10-20T08:47:57.000Z",
     "url": "https://github.com/Oussama268/ShadowOfTheColossus-PC/releases/tag/v0.57-opt8"
-  },
-  {
-    "id": "evt-rel-sotc-pc-v0.59",
-    "slug": "sotc-pc",
-    "projectName": "ShadowOfTheColossus-PC",
-    "type": "new-release",
-    "titlePt": "Nova release v0.59 em ShadowOfTheColossus-PC",
-    "titleEn": "New release v0.59 for ShadowOfTheColossus-PC",
-    "detailPt": "Versão v0.59 publicada no repositório oficial.",
-    "detailEn": "Version v0.59 published on the official repository.",
-    "timestamp": "2026-10-20T03:26:48.000Z",
-    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.59"
   }
 ]
