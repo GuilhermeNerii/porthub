@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-rel-sotc-pc-v0.78",
+    "slug": "sotc-pc",
+    "projectName": "ShadowOfTheColossus-PC",
+    "type": "new-release",
+    "titlePt": "Nova release v0.78 em ShadowOfTheColossus-PC",
+    "titleEn": "New release v0.78 for ShadowOfTheColossus-PC",
+    "detailPt": "Versão v0.78 publicada no repositório oficial.",
+    "detailEn": "Version v0.78 published on the official repository.",
+    "timestamp": "2026-11-26T01:54:10.000Z",
+    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.78"
+  },
+  {
     "id": "evt-rel-sotc-pc-oussama268-v0.76.2-opt17",
     "slug": "sotc-pc-oussama268",
     "projectName": "ShadowOfTheColossus-PC (Oussama268)",
@@ -706,17 +718,5 @@
     "detailEn": "Version v0.60.1 published on the official repository.",
     "timestamp": "2026-10-20T16:21:46.000Z",
     "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.60.1"
-  },
-  {
-    "id": "evt-stars-bloodborne-pc-supermedo-4k",
-    "slug": "bloodborne-pc-supermedo",
-    "projectName": "Bloodborne for Windows (Supermedo)",
-    "type": "star-milestone",
-    "titlePt": "Bloodborne for Windows (Supermedo) ultrapassou 4.000 estrelas no GitHub",
-    "titleEn": "Bloodborne for Windows (Supermedo) surpassed 4,000 stars on GitHub",
-    "detailPt": "O projeto atingiu 4.034 estrelas.",
-    "detailEn": "The project reached 4,034 stars.",
-    "timestamp": "2026-10-20T11:22:04.365Z",
-    "url": "https://github.com/Supermedo/bloodborne_pc"
   }
 ]
