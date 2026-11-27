@@ -6,97 +6,17 @@
     "originType": "Recompilation",
     "status": "Needs Manual Verification",
     "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
+    "discoveredAt": "2026-11-27T21:02:04.659Z",
     "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
   },
   {
-    "game": "Killer Instinct 2",
+    "game": "Killer Instinct",
     "portName": "UltraCombo",
     "platform": "PC / Console",
     "originType": "Recompilation",
     "status": "Needs Manual Verification",
     "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
-    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
-  },
-  {
-    "game": "San Francisco Rush 2049",
-    "portName": "ProjectR",
-    "platform": "PC / Console",
-    "originType": "Decompilation",
-    "status": "Needs Manual Verification",
-    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
-    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
-  },
-  {
-    "game": "Scud Race",
-    "portName": "Scud-Race",
-    "platform": "PC / Console",
-    "originType": "Decompilation",
-    "status": "Needs Manual Verification",
-    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
-    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
-  },
-  {
-    "game": "Silent Hill: The Arcade",
-    "portName": "Silent Hill: The Arcade",
-    "platform": "PC / Console",
-    "originType": "Decompilation",
-    "status": "Needs Manual Verification",
-    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
-    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
-  },
-  {
-    "game": "Super Street Fighter II X",
-    "portName": "ssf2xj-recomp",
-    "platform": "PC / Console",
-    "originType": "Recompilation",
-    "status": "Needs Manual Verification",
-    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
-    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
-  },
-  {
-    "game": "Star Wars Trilogy",
-    "portName": "StarWarsTrilogyNative",
-    "platform": "PC / Console",
-    "originType": "Recompilation",
-    "status": "Needs Manual Verification",
-    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
-    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
-  },
-  {
-    "game": "Sonic The Hedgehog",
-    "portName": "segasonic-port",
-    "platform": "PC / Console",
-    "originType": "Decompilation",
-    "status": "Needs Manual Verification",
-    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
-    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
-  },
-  {
-    "game": "The Lost World: Arcade",
-    "portName": "LostWorldNative",
-    "platform": "PC / Console",
-    "originType": "Recompilation",
-    "status": "Needs Manual Verification",
-    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
-    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
-  },
-  {
-    "game": "The Simpsons Arcade Game",
-    "portName": "simpsons-port",
-    "platform": "PC / Console",
-    "originType": "Decompilation",
-    "status": "Needs Manual Verification",
-    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
     "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
   },
   {
@@ -106,7 +26,67 @@
     "originType": "Decompilation",
     "status": "Needs Manual Verification",
     "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "San Francisco Rush: The Rock",
+    "portName": "ProjectR",
+    "platform": "PC / Console",
+    "originType": "Decompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Scud Race",
+    "portName": "Scud-Race",
+    "platform": "PC / Console",
+    "originType": "Decompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Silent Hill: The Arcade",
+    "portName": "Silent Hill: The Arcade",
+    "platform": "PC / Console",
+    "originType": "Decompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Sonic The Hedgehog",
+    "portName": "segasonic-port",
+    "platform": "PC / Console",
+    "originType": "Decompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Star Wars Trilogy",
+    "portName": "StarWarsTrilogyNative",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "Super Street Fighter II X",
+    "portName": "ssf2xj-recomp",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
     "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
   },
   {
@@ -116,7 +96,27 @@
     "originType": "Decompilation",
     "status": "Needs Manual Verification",
     "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "The Lost World: Arcade",
+    "portName": "LostWorldNative",
+    "platform": "PC / Console",
+    "originType": "Recompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
+    "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
+  },
+  {
+    "game": "The Simpsons Arcade Game",
+    "portName": "simpsons-port",
+    "platform": "PC / Console",
+    "originType": "Decompilation",
+    "status": "Needs Manual Verification",
+    "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
     "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
   },
   {
@@ -126,7 +126,7 @@
     "originType": "Recompilation",
     "status": "Needs Manual Verification",
     "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
     "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
   },
   {
@@ -136,7 +136,7 @@
     "originType": "Recompilation",
     "status": "Needs Manual Verification",
     "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
     "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
   },
   {
@@ -146,7 +146,7 @@
     "originType": "Recompilation",
     "status": "Needs Manual Verification",
     "discoveredFrom": "https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports",
-    "discoveredAt": "2026-11-26T21:21:26.028Z",
+    "discoveredAt": "2026-11-27T21:02:04.660Z",
     "notes": "Descoberto via PCGamingWiki API. Valide o repositório antes de incluir em projects.json."
   }
 ]
